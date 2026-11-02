@@ -28,7 +28,7 @@
 
 ## 👋 About
 
-This is a documented record of how I'm learning Java, from syntax to data structures and concurrency, on the way to an engineering role.
+This is **Raj Patel's** ("RDJ") documented record of how he is learning Java as a Computer Science student at Florida A&M University, from syntax to data structures and concurrency, on the way to an engineering role.
 
 The files in `01-basics` and `02-oop` were written, tested and debugged by me. From `03-collections` onward, each concept file and its walkthrough was **first drafted with Claude as reference material**, and every one of those files says so in a header comment on its first line. A topic only counts as learned once I have **retyped it, broken it on purpose, and rewritten the walkthrough in my own words**.
 
@@ -184,4 +184,4 @@ If you're a recruiter, a hiring manager or a fellow engineer: thank you for taki
 
 I'm not there yet. But I'm not guessing at how to get there either: I have a plan, I'm executing it, and this repository is the record.
 
-— RDJ
+— Raj Patel (RDJ), Tallahassee, Florida

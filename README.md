@@ -9,6 +9,8 @@
 ![Focus](https://img.shields.io/badge/Focus-AI%20Engineering-7C3AED?style=for-the-badge)
 ![Security](https://img.shields.io/badge/Security-Legal%20Labs%20Only-DC2626?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Building%20in%20Public-0EA5E9?style=for-the-badge)
+![University](https://img.shields.io/badge/Florida%20A%26M%20University-Computer%20Science-F58025?style=for-the-badge)
+![Location](https://img.shields.io/badge/Tallahassee%2C%20FL-22C55E?style=for-the-badge&logo=googlemaps&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge)
 
 ### *What can one disciplined CS student prove, in public, in 12 months?*
@@ -28,7 +30,7 @@
 
 ## 👤 About
 
-I'm **RDJ** (GitHub: `raj-famu-dev`), a Computer Science undergraduate. This repository is my public lab: every module, project and write-up on the way to an **AI engineering** role lives here, with its status stated honestly.
+I'm **Raj Patel** ("RDJ"; GitHub: `raj-famu-dev`), a Computer Science undergraduate at **Florida A&M University** in **Tallahassee, Florida**. This repository is my public lab: every module, project and write-up on the way to an **AI engineering** role lives here, with its status stated honestly.
 
 - **Direction:** AI engineering first, security second, computer science fundamentals and math underneath.
 - **Foundation language:** Java. **Next:** Python and FastAPI, then RAG and agent projects with evaluation sets.
@@ -42,6 +44,7 @@ I'm **RDJ** (GitHub: `raj-famu-dev`), a Computer Science undergraduate. This rep
 
 | | |
 |---|---|
+| **Education** | B.S. Computer Science (in progress), Florida A&M University, Tallahassee, FL |
 | **Java** | 108 files, about 17,500 lines. **28 written by me**, 80 drafted with Claude as reference (each says so in its first line) |
 | **Java modules** | 15 planned: **2 complete**, 9 reference material, 4 not started |
 | **Python** | 11 basics scripts, each with a walkthrough, all mine |
@@ -116,7 +119,7 @@ A 60-second tour, in the order that is most useful:
 2. **My own work:** [`project-04-grade-manager`](./java-by-RDJ/projects/project-04-grade-manager), [`concepts/02-oop`](./java-by-RDJ/concepts/02-oop), [`python-by-RDJ`](./python-by-RDJ).
 3. **How I think about correctness:** [`14-dsa-in-java`](./java-by-RDJ/concepts/14-dsa-in-java) builds each structure without the JDK collections, then checks it against the JDK class on thousands of seeded random operations.
 
-**Looking for:** AI engineering or software engineering internships and junior roles. **Contact:** through my GitHub profile, [`raj-famu-dev`](https://github.com/raj-famu-dev).
+**Looking for:** AI engineering or software engineering internships and junior roles. **Based in:** Tallahassee, Florida. **Contact:** through my GitHub profile, [`raj-famu-dev`](https://github.com/raj-famu-dev).
 
 ---
 
