@@ -54,7 +54,7 @@ I'm not asking to be trusted on claims. I'm asking to be evaluated on evidence �
 | [`concepts/03-collections`](./concepts/03-collections) | Lists, Sets, Maps, Queues, iterators, comparators (13 topics) | 📘 Reference added |
 | [`concepts/04-exceptions`](./concepts/04-exceptions) | Error handling, custom exceptions, try-with-resources, chaining (8 topics) | 📘 Reference added (`_1` code is mine) |
 | [`concepts/05-multithreading`](./concepts/05-multithreading) | Threads, synchronization, executors, CompletableFuture, locks, deadlock, virtual threads (14 topics) | 📘 Reference added |
-| `concepts/06-generics` | Generic classes, bounded types, wildcards | ⬜ Not Started |
+| [`concepts/06-generics`](./concepts/06-generics) | Generic classes and methods, bounds, wildcards, type erasure (6 topics) | 📘 Reference added |
 | `concepts/07-file-io` | NIO.2, text and binary files, CSV/JSON | ⬜ Not Started |
 | `concepts/08-lambdas-streams` | Functional interfaces, streams, Optional | ⬜ Not Started |
 | `concepts/09-modern-java` | Records, sealed classes, pattern matching, `java.time`, `HttpClient` | ⬜ Not Started |
@@ -87,6 +87,7 @@ I'm not asking to be trusted on claims. I'm asking to be evaluated on evidence �
 - **`03-collections`:** 📘 Reference added: 13 files, each with a walkthrough, all compiled and run. Next for me: retype each one, break it, and rewrite the `.md` in my own words
 - **`04-exceptions`:** 📘 Reference added: `_1` is my own code (walkthrough drafted by Claude), `_2` to `_8` drafted by Claude, all compiled and run. Also added the missing walkthrough for `02-oop/_15`
 - **`05-multithreading`:** 📘 Reference added: 14 files, each with a walkthrough, all compiled and run. Race, volatile and deadlock demos are timing-dependent. Next for me: retype each one, break it, and rewrite the `.md` in my own words
+- **`06-generics`:** 📘 Reference added: 6 files, each with a walkthrough, all compiled and run. Next for me: retype each one, break it, and rewrite the `.md` in my own words
 - **Projects:** `project-04-grade-manager` ✅ Complete (capstone for `01-basics`); `project-01` to `project-03` and `project-05` to `project-08` ⬜ Not Started
 
 *This log is updated after every session — not just when something impressive happens, but every time, to keep the record honest.*
