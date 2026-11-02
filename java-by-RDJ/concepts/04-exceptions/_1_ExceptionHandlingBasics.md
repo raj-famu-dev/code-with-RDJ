@@ -1,6 +1,6 @@
 # `_1_ExceptionHandlingBasics.java`
 
-> Walkthrough drafted with Claude from your existing code. Check it against your own understanding and rewrite it in your own words.
+> Walkthrough written with Claude (Sonnet 5.5) from RDJ's own code; completed and verified by running the code.
 
 ## Concept
 An exception is an unexpected event that disrupts normal program flow. Without handling, it crashes the program. `try`/`catch`/`finally` lets the program respond instead of dying.

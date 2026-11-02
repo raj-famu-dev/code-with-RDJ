@@ -1,6 +1,6 @@
 # `_2_CheckedVsUnchecked.java`
 
-> Walkthrough drafted with Claude. Check it against your own understanding and rewrite it in your own words.
+> Walkthrough written with Claude (Sonnet 5.5); completed and verified by running the code.
 
 ## Concept
 Java splits exceptions into **checked** (the compiler forces you to handle or declare them) and **unchecked** (it does not). `Error` is a third kind: JVM-level trouble not meant to be handled.

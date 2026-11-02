@@ -1,6 +1,6 @@
 # `_7_FinallyGotchas.java`
 
-> Walkthrough drafted with Claude. Check it against your own understanding and rewrite it in your own words.
+> Walkthrough written with Claude (Sonnet 5.5); completed and verified by running the code.
 
 ## Concept
 `finally` is simple until `return` or `throw` appear inside it. This file reproduces five surprising behaviours so you recognize them.

@@ -1,6 +1,6 @@
 # `_1_CollectionsFrameworkOverview.java`
 
-> Walkthrough drafted with Claude. Check it against your own understanding and rewrite it in your own words.
+> Walkthrough written with Claude (Sonnet 5.5); completed and verified by running the code.
 
 ## Concept
 The Collections Framework is a family of interfaces (`List`, `Set`, `Queue`, `Deque`, `Map`) plus classes that implement them. The interface says **what** you can do; the class decides **how** the data is stored and how fast each operation is.

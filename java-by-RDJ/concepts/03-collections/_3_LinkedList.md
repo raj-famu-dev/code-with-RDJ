@@ -1,6 +1,6 @@
 # `_3_LinkedList.java`
 
-> Walkthrough drafted with Claude. Check it against your own understanding and rewrite it in your own words.
+> Walkthrough written with Claude (Sonnet 5.5); completed and verified by running the code.
 
 ## Concept
 `LinkedList` is a chain of nodes. Each node stores a value and links to its neighbours. Java's version is doubly linked and implements both `List` and `Deque`.

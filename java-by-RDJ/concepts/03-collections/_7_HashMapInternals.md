@@ -1,6 +1,6 @@
 # `_7_HashMapInternals.java`
 
-> Walkthrough drafted with Claude. Check it against your own understanding and rewrite it in your own words.
+> Walkthrough written with Claude (Sonnet 5.5); completed and verified by running the code.
 
 ## Concept
 A hash map is an **array of buckets**. `key.hashCode()` is turned into an array index, so the right bucket is found in one step. This file builds a simplified `MiniMap` to make that visible; the real `java.util.HashMap` is more sophisticated.

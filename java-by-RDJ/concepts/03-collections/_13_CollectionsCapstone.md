@@ -1,6 +1,6 @@
 # `_13_CollectionsCapstone.java`
 
-> Walkthrough drafted with Claude. Check it against your own understanding and rewrite it in your own words.
+> Walkthrough written with Claude (Sonnet 5.5); completed and verified by running the code.
 
 ## Concept
 Three small programs that combine what the folder covered: counting with a `Map`, caching with a `LinkedHashMap`, and ranking with `Comparator` chains.

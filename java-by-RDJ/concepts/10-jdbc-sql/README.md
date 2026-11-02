@@ -31,7 +31,6 @@ Convention: one `_N_Name.java` plus one `_N_Name.md` per topic. Commit a `schema
 
 **Module status:** ⬜ Not started: this page is the plan, no files exist yet.
 
-
 ## 📚 Topics
 
 | # | File | Question the file must answer | Status |
@@ -49,7 +48,7 @@ show a test that fails if you remove the transaction from your transfer method.
 
 ## 🧾 Status Note
 
-**Key:** ✅ complete and understood by me · 📘 reference added (compiled and run) · 🔄 in progress · ⬜ not started.
+**Key:** ✅ completed (written, run and explained in a walkthrough) · 🔄 in progress · ⬜ not started.
 
 ⬜ Nothing is written for this module yet: this folder contains only this README, and every row above is a plan, not a result.
 

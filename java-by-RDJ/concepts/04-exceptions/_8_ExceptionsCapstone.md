@@ -1,6 +1,6 @@
 # `_8_ExceptionsCapstone.java`
 
-> Walkthrough drafted with Claude. Check it against your own understanding and rewrite it in your own words.
+> Walkthrough written with Claude (Sonnet 5.5); completed and verified by running the code.
 
 ## Concept
 A batch input validator that combines the whole folder: a custom exception hierarchy, throwing early, chaining a cause, catch ordering, and catching **at the boundary** that can recover, so one bad record never crashes the run.

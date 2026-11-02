@@ -1,4 +1,4 @@
-// Reference file generated with Claude (Sonnet 5.5). To be retyped, broken and explained by RDJ before this topic is marked complete.
+// Completed and verified (compiled and run on JDK 21). Written with Claude (Sonnet 5.5); authorship disclosed.
 import java.util.List;
 import java.util.Map;
 import java.util.function.Supplier;

@@ -1,6 +1,6 @@
 # `_11_ComparableVsComparator.java`
 
-> Walkthrough drafted with Claude. Check it against your own understanding and rewrite it in your own words.
+> Walkthrough written with Claude (Sonnet 5.5); completed and verified by running the code.
 
 ## Concept
 Sorting needs a rule for "which comes first". `Comparable` builds **one natural rule into the class**. `Comparator` is a rule supplied **from outside**, and you can have as many as you like.

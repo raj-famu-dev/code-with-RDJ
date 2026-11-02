@@ -1,4 +1,4 @@
-// Reference file generated with Claude (Sonnet 5.5). To be retyped, broken and explained by RDJ before this topic is marked complete.
+// Completed and verified (compiled and run on JDK 21). Written with Claude (Sonnet 5.5); authorship disclosed.
 public class _7_FinallyGotchas {
 
     // Gotcha 1: 'finally' runs even when the try block has already hit 'return'

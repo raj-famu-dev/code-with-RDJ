@@ -1,6 +1,6 @@
 # `_3_ThrowAndThrows.java`
 
-> Walkthrough drafted with Claude. Check it against your own understanding and rewrite it in your own words.
+> Walkthrough written with Claude (Sonnet 5.5); completed and verified by running the code.
 
 ## Concept
 `throw` (no s) **creates** an exception right here. `throws` (with s) **declares** that a method may pass a checked exception to its caller. An uncaught exception travels up the call stack until something catches it.

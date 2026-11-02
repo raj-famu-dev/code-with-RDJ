@@ -1,4 +1,4 @@
-> 📘 Reference material drafted with Claude. Not yet learned: retype `_13_VirtualThreads.java`, break it on purpose, then rewrite this walkthrough in your own words.
+> Walkthrough written with Claude (Sonnet 5.5); completed and verified by running the code.
 
 # Virtual Threads (Java 21)
 

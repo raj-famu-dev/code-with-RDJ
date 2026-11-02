@@ -4,7 +4,7 @@
 
 <br/>
 
-![Status](https://img.shields.io/badge/Status-Complete-22C55E?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-22C55E?style=for-the-badge)
 ![Topics](https://img.shields.io/badge/Topics-11-7C3AED?style=for-the-badge)
 ![Java](https://img.shields.io/badge/Java-21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Author](https://img.shields.io/badge/By-Raj%20Patel%20(RDJ)-22D3EE?style=for-the-badge)
@@ -360,7 +360,7 @@ Computer Science undergraduate at **Florida A&M University** · Tallahassee, Flo
 
 This is my personal learning lab and portfolio. I build it, I maintain it, and I am accountable for what it claims.
 
-<sub>Every `.java` file and walkthrough in this folder was written by me.</sub>
+<sub>Every file and walkthrough in this folder was written by me.</sub>
 
 [Java Mastery Lab](../../README.md) · [Module 02](../02-oop/) ➡
 

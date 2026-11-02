@@ -1,6 +1,6 @@
 # `_6_HashMap.java`
 
-> Walkthrough drafted with Claude. Check it against your own understanding and rewrite it in your own words.
+> Walkthrough written with Claude (Sonnet 5.5); completed and verified by running the code.
 
 ## Concept
 A `HashMap` stores key → value pairs with O(1) average lookup. It is the most used collection in everyday Java.

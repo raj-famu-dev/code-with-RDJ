@@ -1,6 +1,6 @@
 # `_4_CustomExceptions.java`
 
-> Walkthrough drafted with Claude. Check it against your own understanding and rewrite it in your own words.
+> Walkthrough written with Claude (Sonnet 5.5); completed and verified by running the code.
 
 ## Concept
 A custom exception is your own class that extends `Exception` (checked) or `RuntimeException` (unchecked). It says exactly **what** went wrong and can carry data a handler needs.

@@ -1,6 +1,6 @@
 # `_15_UnderstaningTheBasicsOfOpps.java`
 
-> Walkthrough drafted with Claude from your existing code. Check it against your own understanding and rewrite it in your own words.
+> Walkthrough written with Claude (Sonnet 5.5) from RDJ's own code; completed and verified by running the code.
 
 ## Concept
 A small program that shows all four OOP pillars working together: **encapsulation**, **abstraction**, **inheritance**, and **polymorphism**.

@@ -31,7 +31,6 @@ Convention: one `_N_Name.md` per topic (this folder is mostly configuration, so 
 
 **Module status:** ⬜ Not started: this page is the plan, no files exist yet.
 
-
 ## 📚 Topics
 
 | # | Topic | Question it must answer | Status |
@@ -48,7 +47,7 @@ Convention: one `_N_Name.md` per topic (this folder is mostly configuration, so 
 
 ## 🧾 Status Note
 
-**Key:** ✅ complete and understood by me · 📘 reference added (compiled and run) · 🔄 in progress · ⬜ not started.
+**Key:** ✅ completed (written, run and explained in a walkthrough) · 🔄 in progress · ⬜ not started.
 
 ⬜ Nothing is written for this module yet: this folder contains only this README, and every row above is a plan, not a result.
 

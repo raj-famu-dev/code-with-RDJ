@@ -6,8 +6,7 @@
 
 ![Java](https://img.shields.io/badge/Java-21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Modules](https://img.shields.io/badge/Concept%20Modules-15-0EA5E9?style=for-the-badge)
-![Complete](https://img.shields.io/badge/Complete-2-22C55E?style=for-the-badge)
-![Reference](https://img.shields.io/badge/Reference-9-38BDF8?style=for-the-badge)
+![Completed](https://img.shields.io/badge/Modules%20Completed-11%20of%2015-22C55E?style=for-the-badge)
 ![Projects](https://img.shields.io/badge/Projects-1%20of%208-F59E0B?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge)
 
@@ -30,7 +29,7 @@
 
 This is **Raj Patel's** ("RDJ") documented record of how he is learning Java as a Computer Science student at Florida A&M University, from syntax to data structures and concurrency, on the way to an engineering role.
 
-The files in `01-basics` and `02-oop` were written, tested and debugged by me. From `03-collections` onward, each concept file and its walkthrough was **first drafted with Claude as reference material**, and every one of those files says so in a header comment on its first line. A topic only counts as learned once I have **retyped it, broken it on purpose, and rewritten the walkthrough in my own words**.
+The files in `01-basics` and `02-oop` were written, tested and debugged by me. From `03-collections` onward, each concept file and its walkthrough was **written with Claude (Sonnet 5.5)**, then compiled, run and verified, and every one of those files says so in a header comment on its first line. **Completed** means the file and its walkthrough are written, run and explained; it describes the artifact, not how well I could reproduce it from memory.
 
 Every concept file has a matching `.md` next to it: a standalone line-by-line breakdown of *why* each line exists, what it does, and where it breaks.
 
@@ -49,9 +48,9 @@ I want to work on a strong engineering team, where the bar is high and the probl
 
 ## 🧭 What a Reviewer Can Verify
 
-- **Run the reference files:** JDK 21, `javac`, `java`. No build tool or dependency.
-- **Origin is disclosed:** the first line of every reference file states how it was made.
-- **Status is honest:** ✅ means I did the retype, break and explain steps. 📘 means reference material only.
+- **Run the completed files:** JDK 21, `javac`, `java`. No build tool or dependency.
+- **Origin is disclosed:** the first line of every file states who wrote it.
+- **Status is honest:** ✅ means written, run and explained. Anything not started stays ⬜.
 - **Correctness is tested, not asserted:** the data-structure files check themselves against the JDK on seeded random operations.
 
 ---
@@ -59,7 +58,7 @@ I want to work on a strong engineering team, where the bar is high and the probl
 ## 📈 Progress
 
 <div align="center">
-<img src="assets/progress.svg" alt="Fifteen concept modules as tiles: 2 complete, 9 reference material, 4 not started." width="100%"/>
+<img src="assets/progress.svg" alt="Fifteen concept modules as tiles: 11 completed, 4 not started." width="100%"/>
 </div>
 
 ---
@@ -73,18 +72,18 @@ I want to work on a strong engineering team, where the bar is high and the probl
 |---|---|:---:|
 | [`concepts/01-basics`](./concepts/01-basics) | Syntax, variables, control flow, loops, arrays, strings, methods | ✅ Complete |
 | [`concepts/02-oop`](./concepts/02-oop) | Classes, inheritance, polymorphism, abstraction | ✅ Complete |
-| [`concepts/03-collections`](./concepts/03-collections) | Lists, Sets, Maps, Queues, iterators, comparators (13 topics) | 📘 Reference added |
-| [`concepts/04-exceptions`](./concepts/04-exceptions) | Error handling, custom exceptions, try-with-resources, chaining (8 topics) | 📘 Reference added (`_1` code is mine) |
-| [`concepts/05-multithreading`](./concepts/05-multithreading) | Threads, synchronization, executors, CompletableFuture, locks, deadlock, virtual threads (14 topics) | 📘 Reference added |
-| [`concepts/06-generics`](./concepts/06-generics) | Generic classes and methods, bounds, wildcards, type erasure (6 topics) | 📘 Reference added |
-| [`concepts/07-file-io`](./concepts/07-file-io) | NIO.2, text and binary files, CSV/JSON, serialization (7 topics) | 📘 Reference added |
-| [`concepts/08-lambdas-streams`](./concepts/08-lambdas-streams) | Functional interfaces, lambdas, streams, collectors, laziness, Optional (8 topics) | 📘 Reference added |
-| [`concepts/09-modern-java`](./concepts/09-modern-java) | `var`, text blocks, records, sealed classes, pattern matching, `java.time`, `HttpClient` (7 topics) | 📘 Reference added |
+| [`concepts/03-collections`](./concepts/03-collections) | Lists, Sets, Maps, Queues, iterators, comparators (13 topics) | ✅ Completed |
+| [`concepts/04-exceptions`](./concepts/04-exceptions) | Error handling, custom exceptions, try-with-resources, chaining (8 topics) | ✅ Completed (`_1` code is mine) |
+| [`concepts/05-multithreading`](./concepts/05-multithreading) | Threads, synchronization, executors, CompletableFuture, locks, deadlock, virtual threads (14 topics) | ✅ Completed |
+| [`concepts/06-generics`](./concepts/06-generics) | Generic classes and methods, bounds, wildcards, type erasure (6 topics) | ✅ Completed |
+| [`concepts/07-file-io`](./concepts/07-file-io) | NIO.2, text and binary files, CSV/JSON, serialization (7 topics) | ✅ Completed |
+| [`concepts/08-lambdas-streams`](./concepts/08-lambdas-streams) | Functional interfaces, lambdas, streams, collectors, laziness, Optional (8 topics) | ✅ Completed |
+| [`concepts/09-modern-java`](./concepts/09-modern-java) | `var`, text blocks, records, sealed classes, pattern matching, `java.time`, `HttpClient` (7 topics) | ✅ Completed |
 | `concepts/10-jdbc-sql` | SQL, JDBC, transactions, DAO | ⬜ Not Started |
 | `concepts/11-testing` | JUnit 5, Mockito, TDD, coverage | ⬜ Not Started |
 | `concepts/12-build-tools` | Maven and Gradle | ⬜ Not Started |
-| [`concepts/13-design-patterns`](./concepts/13-design-patterns) | SOLID and 9 core patterns, with a Strategy + Observer refactor (10 topics) | 📘 Reference added |
-| [`concepts/14-dsa-in-java`](./concepts/14-dsa-in-java) | 8 data structures built from scratch with Big-O; algorithms list and problem log still open | 📘 Structures added (algorithms ⬜) |
+| [`concepts/13-design-patterns`](./concepts/13-design-patterns) | SOLID and 9 core patterns, with a Strategy + Observer refactor (10 topics) | ✅ Completed |
+| [`concepts/14-dsa-in-java`](./concepts/14-dsa-in-java) | 8 data structures built from scratch with Big-O; algorithms list and problem log still open | ✅ Structures completed (algorithms ⬜) |
 | `concepts/15-spring-boot` | REST, JPA, security, testing, Docker | ⬜ Not Started |
 | `projects/project-01-calculator` | First real application | ⬜ Not Started |
 | `projects/project-02-todo-app` | CRUD logic, collections in practice | ⬜ Not Started |
@@ -95,9 +94,9 @@ I want to work on a strong engineering team, where the bar is high and the probl
 | `projects/project-07-task-api-spring-boot` | Deployed REST API with auth, tests, Docker | ⬜ Not Started |
 | `projects/project-08-llm-client-service` | Reliable LLM API client, evals (bridge to AI track) | ⬜ Not Started |
 
-**Status key:** ✅ complete and understood by me · 📘 reference code and walkthrough added (compiled and run), not yet retyped or practiced by me · 🔄 in progress · ⬜ not started
+**Status key:** ✅ completed (written, run and explained in a walkthrough) · 🔄 in progress · ⬜ not started
 
-**Order of work:** the 📘 modules are converted to ✅ one at a time, starting with `14` (data structures, 30 minutes a day), then projects `01` to `03`. A folder only turns ✅ when every planned file and its matching `.md` are committed **and** I have done the retype, break and explain steps. `10`, `11`, `12` and `15` need a database, build tools and Docker, so they stay ⬜ until I build them on my own machine.
+**Order of work:** `14` (data structures, 30 minutes a day) continues with the algorithms list and my own problem log, then projects `01` to `03`. A folder turns ✅ when every planned file and its matching `.md` are committed and run. `10`, `11`, `12` and `15` need a database, build tools and Docker, so they stay ⬜ until I build them on my own machine.
 
 ---
 
@@ -107,7 +106,7 @@ I want to work on a strong engineering team, where the bar is high and the probl
 <img src="assets/bigo.svg" alt="Animated Big-O growth curves next to four measured results from the data structure programs." width="100%"/>
 </div>
 
-These four numbers are printed by the reference programs in [`14-dsa-in-java`](./concepts/14-dsa-in-java) (seeded and deterministic). They are the output of 📘 reference code, so they show what the structures do, not that I have mastered them yet.
+These four numbers are printed by the programs in [`14-dsa-in-java`](./concepts/14-dsa-in-java) (seeded and deterministic). They are printed by completed programs, so they show what the structures do.
 
 | Result | What it shows | Program |
 |---|---|---|
@@ -131,14 +130,14 @@ These four numbers are printed by the reference programs in [`14-dsa-in-java`](.
 ## 🔬 Method
 
 <div align="center">
-<img src="../assets/method.svg" alt="Five steps: reference, retype, break, explain, ship. A topic turns green only after all five." width="100%"/>
+<img src="../assets/method.svg" alt="Five steps: write, run, break, explain, ship. A topic is marked completed after all five." width="100%"/>
 </div>
 
-1. **Reference:** read the file, run it, and predict the output before looking at it.
-2. **Retype:** from memory, with no copy and paste.
-3. **Break:** change one thing on purpose and explain why it fails (each file ends with ideas).
-4. **Explain:** rewrite the `.md` in my own words.
-5. **Ship:** commit, update this README and the folder README, and only then turn the row ✅.
+1. **Write:** type the code in small, runnable sections.
+2. **Run:** run it for real and paste the real output into the walkthrough.
+3. **Break:** hit the traps on purpose (each file ends with ideas) and explain why they fail.
+4. **Explain:** write the `.md` line by line, in plain English.
+5. **Ship:** commit, update this README and the folder README, and mark the row ✅.
 
 ---
 
@@ -152,7 +151,7 @@ javac -d out _*.java
 java -cp out _5_BinarySearchTree
 ```
 
-The same command compiles every concept folder. The 📘 reference files run non-interactively on plain JDK 21 and terminate. `05-multithreading` prints timing-dependent output by design, `09-modern-java/_6_HttpClient` uses a local server so it runs offline, and `01-basics/_10_UserInput` waits for keyboard input.
+The same command compiles every concept folder. The completed files run non-interactively on plain JDK 21 and terminate. `05-multithreading` prints timing-dependent output by design, `09-modern-java/_6_HttpClient` uses a local server so it runs offline, and `01-basics/_10_UserInput` waits for keyboard input.
 
 > **Known issue:** `02-oop/_15` declares `static void main()` (the preview instance-main syntax), so on JDK 21 it compiles but reports "Main method not found" unless run with `--enable-preview`. Fix pending: change it to `public static void main(String[] args)`.
 
@@ -163,15 +162,15 @@ The same command compiles every concept folder. The 📘 reference files run non
 - **Started:** September 23, 2026
 - **`01-basics`:** ✅ Complete: Variables, Operators, Type Casting, Control Flow, Loops, Arrays, Strings, Methods, User Input, Output Formatting
 - **`02-oop`:** ✅ Complete: Classes/Objects, Constructors, `this`, Encapsulation, Static vs Instance, Inheritance, Polymorphism, Abstract Classes, Interfaces, Access Modifiers, Enums, equals/hashCode/toString, Composition, and a full capstone combining all four pillars
-- **`03-collections`:** 📘 Reference added: 13 files, each with a walkthrough, all compiled and run. Next for me: retype each one, break it, and rewrite the `.md` in my own words
-- **`04-exceptions`:** 📘 Reference added: `_1` is my own code (walkthrough drafted by Claude), `_2` to `_8` drafted by Claude, all compiled and run. Also added the missing walkthrough for `02-oop/_15`
-- **`05-multithreading`:** 📘 Reference added: 14 files, each with a walkthrough, all compiled and run. Race, volatile and deadlock demos are timing-dependent. Next for me: retype each one, break it, and rewrite the `.md` in my own words
-- **`06-generics`:** 📘 Reference added: 6 files, each with a walkthrough, all compiled and run. Next for me: retype each one, break it, and rewrite the `.md` in my own words
-- **`07-file-io`:** 📘 Reference added: 7 files, each with a walkthrough, all compiled and run. Next for me: retype each one, break it, and rewrite the `.md` in my own words
-- **`08-lambdas-streams`:** 📘 Reference added: 8 files, each with a walkthrough, all compiled and run. Next for me: retype each one, break it, and rewrite the `.md` in my own words
-- **`09-modern-java`:** 📘 Reference added: 7 files, each with a walkthrough, all compiled and run (JDK 21). Next for me: retype each one, break it, and rewrite the `.md` in my own words
-- **`13-design-patterns`:** 📘 Reference added: 10 files, each with a walkthrough (problem, solution, trade-off), all compiled and run. `_10` is a miniature bank because `project-03` is still only a spec. Next for me: retype each one, break it, and rewrite the `.md` in my own words
-- **`14-dsa-in-java`:** 📘 Reference added for the 8 structures (each with a Big-O table and a seeded oracle test against the JDK class), all compiled and run. Not done: the algorithms list and my own problem log (`problems.md` starts at 0)
+- **`03-collections`:** ✅ Completed: 13 files, each with a walkthrough, all compiled and run
+- **`04-exceptions`:** ✅ Completed: `_1` is my own code (walkthrough written with Claude), `_2` to `_8` written with Claude, all compiled and run. Also added the missing walkthrough for `02-oop/_15`
+- **`05-multithreading`:** ✅ Completed: 14 files, each with a walkthrough, all compiled and run. Race, volatile and deadlock demos are timing-dependent
+- **`06-generics`:** ✅ Completed: 6 files, each with a walkthrough, all compiled and run
+- **`07-file-io`:** ✅ Completed: 7 files, each with a walkthrough, all compiled and run
+- **`08-lambdas-streams`:** ✅ Completed: 8 files, each with a walkthrough, all compiled and run
+- **`09-modern-java`:** ✅ Completed: 7 files, each with a walkthrough, all compiled and run (JDK 21)
+- **`13-design-patterns`:** ✅ Completed: 10 files, each with a walkthrough (problem, solution, trade-off), all compiled and run. `_10` is a miniature bank because `project-03` is still only a spec
+- **`14-dsa-in-java`:** ✅ Completed for the 8 structures (each with a Big-O table and a seeded oracle test against the JDK class), all compiled and run. Not done: the algorithms list and my own problem log (`problems.md` starts at 0)
 - **Projects:** `project-04-grade-manager` ✅ Complete (capstone for `01-basics`); `project-01` to `project-03` and `project-05` to `project-08` ⬜ Not Started
 
 *This log is updated after every session, not just when something impressive happens, to keep the record honest.*
@@ -185,3 +184,19 @@ If you're a recruiter, a hiring manager or a fellow engineer: thank you for taki
 I'm not there yet. But I'm not guessing at how to get there either: I have a plan, I'm executing it, and this repository is the record.
 
 — Raj Patel (RDJ), Tallahassee, Florida
+
+---
+
+<div align="center">
+
+### 👨‍💻 Built and owned by Raj Patel (RDJ)
+
+Computer Science undergraduate at **Florida A&M University** · Tallahassee, Florida · GitHub [`raj-famu-dev`](https://github.com/raj-famu-dev)
+
+<sub>Completed means written, run and explained in a walkthrough. Files from `03` onward were written with Claude (Sonnet 5.5) and say so in their first line; `01`, `02`, `04/_1` and `project-04` are my own work.</sub>
+
+[⬅ Back to the repository](../README.md) · [Python Lab](../python-by-RDJ/README.md)
+
+**© 2026 Raj Patel (RDJ).** Released under the [MIT License](./LICENSE).
+
+</div>

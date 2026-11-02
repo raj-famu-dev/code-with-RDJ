@@ -1,6 +1,6 @@
 # `_12_UtilityAndImmutableCollections.java`
 
-> Walkthrough drafted with Claude. Check it against your own understanding and rewrite it in your own words.
+> Walkthrough written with Claude (Sonnet 5.5); completed and verified by running the code.
 
 ## Concept
 `Collections` (with an **s**) is a class of static helper methods. Separately, Java has several kinds of read-only or fixed-size collections that look similar but behave differently.

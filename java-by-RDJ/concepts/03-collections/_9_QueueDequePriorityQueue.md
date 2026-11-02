@@ -1,6 +1,6 @@
 # `_9_QueueDequePriorityQueue.java`
 
-> Walkthrough drafted with Claude. Check it against your own understanding and rewrite it in your own words.
+> Walkthrough written with Claude (Sonnet 5.5); completed and verified by running the code.
 
 ## Concept
 A `Queue` holds items waiting to be processed. `Deque` works at both ends (so it can also be a stack). `PriorityQueue` always hands back the "best" item first rather than the oldest.

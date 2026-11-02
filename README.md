@@ -45,10 +45,10 @@ I'm **Raj Patel** ("RDJ"; GitHub: `raj-famu-dev`), a Computer Science undergradu
 | | |
 |---|---|
 | **Education** | B.S. Computer Science (in progress), Florida A&M University, Tallahassee, FL |
-| **Java** | 108 files, about 17,500 lines. **28 written by me**, 80 drafted with Claude as reference (each says so in its first line) |
-| **Java modules** | 15 planned: **2 complete**, 9 reference material, 4 not started |
-| **Python** | 11 basics scripts, each with a walkthrough, all mine |
-| **Projects finished** | 1 of 8 planned (`project-04-grade-manager`) |
+| **Java** | 108 files, about 17,500 lines. **28 written by me**, 80 written with Claude (each says so in its first line) |
+| **Java modules** | 15 planned: **11 completed**, 4 not started |
+| **Python** | 57 files, about 8,600 lines. **11 written by me** (`01-basics`), 46 written with Claude. **5 of 5 modules and 3 of 3 projects completed**, 231 pytest tests passing |
+| **Java projects finished** | 1 of 8 planned (`project-04-grade-manager`) |
 | **Deployed projects** | 0. Target: 3 |
 | **Ranked CTF or lab activity** | None yet. No ranking claims until there is a named ranking, a number and a source |
 
@@ -57,13 +57,13 @@ I'm **Raj Patel** ("RDJ"; GitHub: `raj-famu-dev`), a Computer Science undergradu
 ## 🧭 Tracks
 
 <div align="center">
-<img src="assets/tracks.svg" alt="Five learning tracks: Java active, Python in progress, AI engineering next, security queued, C++ parked." width="100%"/>
+<img src="assets/tracks.svg" alt="Five learning tracks: Java active, Python core completed, AI engineering next, security queued, C++ parked." width="100%"/>
 </div>
 
 | Track | Folder | State |
 |---|---|---|
 | ☕ **Java** | [`java-by-RDJ`](./java-by-RDJ) | **Active.** OOP, collections, concurrency, generics, streams, design patterns, data structures from scratch |
-| 🐍 **Python** | [`python-by-RDJ`](./python-by-RDJ) | **In progress.** Basics done (11 files); OOP, I/O, sockets and NumPy/Pandas planned |
+| 🐍 **Python** | [`python-by-RDJ`](./python-by-RDJ) | **Core completed.** 5 modules (OOP, file I/O and JSON, sockets, NumPy/Pandas) and 3 projects, all run and tested. FastAPI is next and not started |
 | 🤖 **AI engineering** | [`ai-engineering-by-RDJ`](./ai-engineering-by-RDJ) | **Next.** Placeholder folder. Starts after Python and FastAPI |
 | 🛡️ **Security** | [`cybersecurity-by-RDJ`](./cybersecurity-by-RDJ) | **Queued.** Placeholder folder. Own systems and legal labs only |
 | ⚙️ **C++ systems** | [`cpp-by-RDJ`](./cpp-by-RDJ) | **Parked.** Placeholder folder. Not started until 3 projects are shipped |
@@ -93,21 +93,21 @@ A target turns green only with **proof**. Nothing here is checked off yet, and t
 ## 🔬 How I Learn
 
 <div align="center">
-<img src="assets/method.svg" alt="Five steps: reference, retype, break, explain, ship. A topic turns green only after all five." width="100%"/>
+<img src="assets/method.svg" alt="Five steps: write, run, break, explain, ship. A topic is marked completed after all five." width="100%"/>
 </div>
 
-Reading is not learning, and a green checkmark is not free. A topic starts as **reference material** (blue). It turns **complete** (green) only after I have retyped it from memory, broken it on purpose, and rewritten the explanation in my own words.
+A green checkmark is not free. A topic turns **completed** (green) only when the code is written, runs for real, has had its traps hit on purpose, and has a line-by-line walkthrough with real output. Anything else stays ⬜.
 
 ---
 
 ## 🧾 Integrity: What Is Mine and What Is Not
 
-I use AI as a tutor and a source of reference code, and I say so on the page instead of hiding it.
+I use AI as a tutor and to help write code, and I say so on the page instead of hiding it.
 
-- **Written by me:** Java `01-basics`, `02-oop`, `04-exceptions/_1`, `project-04-grade-manager`, and all Python basics.
-- **Drafted with Claude as reference:** Java concept folders `03` to `09`, `13` and `14` (80 files). Each `.java` file starts with a header comment saying so, each `.md` opens with a note, and every row is marked 📘, never ✅.
-- **The rule:** I do not count a 📘 module as a skill until it has been retyped, broken and explained by me and turned ✅.
-- **Checkable, not claimed:** the reference programs are deterministic and run on JDK 21, so you can reproduce their output yourself.
+- **Written by me:** Java `01-basics`, `02-oop`, `04-exceptions/_1`, `project-04-grade-manager`, and Python `01-basics`.
+- **Written with Claude (Sonnet 5.5), then run and verified:** Java concept folders `03` to `09`, `13` and `14` (80 files), Python `02` to `05` and the three Python projects. Each file starts with a header line saying so, and each walkthrough opens with a note.
+- **What "completed" means:** written, run and explained in a walkthrough. It describes the artifact. It does not claim I could reproduce it from memory, and nothing here claims a skill level or a ranking.
+- **Checkable, not claimed:** the Java programs are deterministic and run on JDK 21; the Python files run on Python 3.13 and the projects pass their pytest suites, so you can reproduce all of it yourself.
 
 ---
 
@@ -116,8 +116,9 @@ I use AI as a tutor and a source of reference code, and I say so on the page ins
 A 60-second tour, in the order that is most useful:
 
 1. **[`java-by-RDJ`](./java-by-RDJ)**: module map, honest status, and measured results from the data-structure programs.
-2. **My own work:** [`project-04-grade-manager`](./java-by-RDJ/projects/project-04-grade-manager), [`concepts/02-oop`](./java-by-RDJ/concepts/02-oop), [`python-by-RDJ`](./python-by-RDJ).
-3. **How I think about correctness:** [`14-dsa-in-java`](./java-by-RDJ/concepts/14-dsa-in-java) builds each structure without the JDK collections, then checks it against the JDK class on thousands of seeded random operations.
+2. **My own work:** [`project-04-grade-manager`](./java-by-RDJ/projects/project-04-grade-manager), [`concepts/02-oop`](./java-by-RDJ/concepts/02-oop), [`python-by-RDJ/concepts/01-basics`](./python-by-RDJ/concepts/01-basics).
+3. **Python and security tooling:** [`python-by-RDJ`](./python-by-RDJ), especially [`project-02-network-scanner`](./python-by-RDJ/projects/project-02-network-scanner) (refuses public hosts, tested) and [`project-03-perceptron-from-scratch`](./python-by-RDJ/projects/project-03-perceptron-from-scratch).
+4. **How I think about correctness:** [`14-dsa-in-java`](./java-by-RDJ/concepts/14-dsa-in-java) builds each structure without the JDK collections, then checks it against the JDK class on thousands of seeded random operations.
 
 **Looking for:** AI engineering or software engineering internships and junior roles. **Based in:** Tallahassee, Florida. **Contact:** through my GitHub profile, [`raj-famu-dev`](https://github.com/raj-famu-dev).
 

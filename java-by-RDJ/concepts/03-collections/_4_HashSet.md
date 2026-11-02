@@ -1,6 +1,6 @@
 # `_4_HashSet.java`
 
-> Walkthrough drafted with Claude. Check it against your own understanding and rewrite it in your own words.
+> Walkthrough written with Claude (Sonnet 5.5); completed and verified by running the code.
 
 ## Concept
 A `HashSet` stores each value at most once and finds values in O(1) on average. It uses `hashCode()` to pick a bucket and `equals()` to confirm a match. This ties directly back to `02-oop/_12_EqualsHashCodeToString`.

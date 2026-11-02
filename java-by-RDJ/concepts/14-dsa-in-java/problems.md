@@ -2,7 +2,7 @@
 
 **Problems solved by me: 0**
 
-This count is the only number from this folder you are allowed to quote. Add a row only for a problem you solved yourself (or after you gave up, and say so). The structures in this folder are reference material, not solved problems, so they do not count.
+This count is the only number from this folder you are allowed to quote. Add a row only for a problem you solved yourself (or after you gave up, and say so). The structures in this folder are completed programs, not problems you solved yourself, so they do not count.
 
 | Date | Problem | Link | Topic | Attempts | Time | What went wrong |
 |---|---|---|---|:---:|---|---|

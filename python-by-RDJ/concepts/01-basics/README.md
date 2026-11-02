@@ -1,12 +1,29 @@
-# 🐍 Python 01 — Basics
+<div align="center">
 
-> Mirrors the Java `01-basics` curriculum topic-for-topic. Each section explains the Python code and calls out exactly how it differs from the equivalent Java concept.
+<img src="../../assets/modules/01-basics.svg" alt="Python Basics: Variables, control flow, loops, functions, strings. Animated banner by Raj Patel (RDJ)." width="100%"/>
 
-![Language](https://img.shields.io/badge/Language-Python%203.15-blue)
-![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
-![Type](https://img.shields.io/badge/Type-Concept%20Practice-yellow)
+<br/>
+
+![Status](https://img.shields.io/badge/Status-Completed-22C55E?style=for-the-badge)
+![Topics](https://img.shields.io/badge/Topics-11-7C3AED?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.13-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Author](https://img.shields.io/badge/By-Raj%20Patel%20(RDJ)-22D3EE?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge)
+![Type](https://img.shields.io/badge/Type-Concept%20Practice-3B82F6?style=for-the-badge)
+
+*Variables, control flow, loops, functions, strings*
+
+[About This Folder](#-about-this-folder) •
+[Progress Tracker](#-progress-tracker) •
+[Concept Log](#-concept-log)
+
+[Python Lab](../../README.md) · [Module 02](../02-oop-and-modules/) ➡
+
+</div>
 
 ---
+
+> Mirrors the Java `01-basics` curriculum topic-for-topic. Each section explains the Python code and calls out exactly how it differs from the equivalent Java concept.
 
 ## 📌 About This Folder
 
@@ -24,11 +41,11 @@ This is the Python companion to `java-mastery-lab`'s `01-basics` — same 11 top
 | 4 | `_4_TypeCasting.py` | Type conversion functions | ✅ |
 | 5 | `_5_ControlFlow.py` | if/elif/else, match-case | ✅ |
 | 6 | `_6_Loops.py` | for, while, no do-while | ✅ |
-| 7 | `_7_ListsAndArrays.py` | Lists, slicing, tuples | ✅ |
+| 7 | `_7_Arrays.py` | Lists, slicing, tuples | ✅ |
 | 8 | `_8_Strings.py` | String methods & immutability | ✅ |
 | 9 | `_9_Functions.py` | def, *args, **kwargs | ✅ |
 | 10 | `_10_UserInput.py` | input() | ✅ |
-| 11 | `_11_OutputFormatting.py` | f-strings | ✅ |
+| 11 | `_11_OutputFormating.py` | f-strings | ✅ |
 
 ---
 
@@ -234,7 +251,7 @@ for i in range(1, 4):
 
 ---
 
-### 7️⃣ `_7_ListsAndArrays.py`
+### 7️⃣ `_7_Arrays.py`
 
 ```python
 scores = [90, 85, 78, 92, 88]      # dynamic size — no fixed length ever
@@ -369,7 +386,7 @@ except ValueError:
 
 ---
 
-### 1️⃣1️⃣ `_11_OutputFormatting.py`
+### 1️⃣1️⃣ `_11_OutputFormating.py`
 
 ```python
 print(f"Name: {name}, Age: {age}, Salary: {salary}")   # f-strings — modern standard
@@ -414,3 +431,21 @@ print(f"{x=}")               # prints: x=42 — debugging shortcut, no Java equi
 ## ➡️ Next Up
 
 Python's `01-basics` is complete, mirroring Java's. Ready to move into Python's object-oriented programming concepts — classes, inheritance, and how Python's approach to OOP differs from Java's (no access modifiers enforced by the language, duck typing, and more).
+
+---
+
+<div align="center">
+
+### 👨‍💻 Built and owned by Raj Patel (RDJ)
+
+Computer Science undergraduate at **Florida A&M University** · Tallahassee, Florida · GitHub [`raj-famu-dev`](https://github.com/raj-famu-dev)
+
+This is my personal learning lab and portfolio. I build it, I maintain it, and I am accountable for what it claims.
+
+<sub>Every file and walkthrough in this folder was written by me.</sub>
+
+[Python Lab](../../README.md) · [Module 02](../02-oop-and-modules/) ➡
+
+**© 2026 Raj Patel (RDJ).** Released under the [MIT License](../../../LICENSE).
+
+</div>

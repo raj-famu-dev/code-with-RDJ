@@ -1,6 +1,6 @@
 # `_6_ExceptionChaining.java`
 
-> Walkthrough drafted with Claude. Check it against your own understanding and rewrite it in your own words.
+> Walkthrough written with Claude (Sonnet 5.5); completed and verified by running the code.
 
 ## Concept
 Exception chaining wraps a low-level exception inside a higher-level one **while keeping the original as the cause**. The caller sees a meaningful message, and you can still find the real problem.

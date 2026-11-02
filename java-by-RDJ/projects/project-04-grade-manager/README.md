@@ -4,7 +4,7 @@
 
 <br/>
 
-![Status](https://img.shields.io/badge/Status-Complete-22C55E?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-22C55E?style=for-the-badge)
 ![Java](https://img.shields.io/badge/Java-21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Author](https://img.shields.io/badge/By-Raj%20Patel%20(RDJ)-22D3EE?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge)
@@ -29,13 +29,13 @@
 
 | | |
 |---|---|
-| **Status** | ✅ Complete: built and run |
+| **Status** | ✅ Completed: built and run |
 | **Needs** | [`01-basics`](../../concepts/01-basics/) only: it is the capstone for that module |
 | **Storage** | Parallel arrays (`names[]`, `scores[][]`), capped at 50 students, not saved between runs |
 | **Folder** | `java-by-RDJ/projects/project-04-grade-manager` |
 | **Author** | Raj Patel (RDJ) |
 
-**Key:** ✅ complete and understood by me · 📘 reference added (compiled and run) · 🔄 in progress · ⬜ not started.
+**Key:** ✅ completed (written, run and explained in a walkthrough) · 🔄 in progress · ⬜ not started.
 
 ## 📌 Project Description
 
@@ -96,7 +96,7 @@ Found by me, not fixed yet, and visible in the sample run above:
 - The table header and the search output print `Science` and `English`, but the subjects actually prompted for and stored are Math, Physics and Biology.
 - The method is named `viewAllStrudents()` (typo).
 
-Both are also recorded in [`StudentGradeManager.md`](./StudentGradeManager.md) under *Known Naming Note*.
+Both are also recorded in [`StudentGradeManager.md`](./StudentGradeManager.md) under *Known Naming Note*. The Python port in [`python-by-RDJ/projects/project-01-java-ports`](../../../python-by-RDJ/projects/project-01-java-ports) uses the correct labels.
 
 ## 🔗 Files
 
@@ -115,7 +115,7 @@ Computer Science undergraduate at **Florida A&M University** · Tallahassee, Flo
 
 This is my personal learning lab and portfolio. I build it, I maintain it, and I am accountable for what it claims.
 
-<sub>Every `.java` file and walkthrough in this folder was written by me.</sub>
+<sub>Every file and walkthrough in this folder was written by me.</sub>
 
 ⬅ [Project 03](../project-03-bank-system/) · [Java Mastery Lab](../../README.md) · [Project 05](../project-05-contact-book/) ➡
 

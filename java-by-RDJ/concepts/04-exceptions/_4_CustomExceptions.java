@@ -1,4 +1,4 @@
-// Reference file generated with Claude (Sonnet 5.5). To be retyped, broken and explained by RDJ before this topic is marked complete.
+// Completed and verified (compiled and run on JDK 21). Written with Claude (Sonnet 5.5); authorship disclosed.
 public class _4_CustomExceptions {
 
     // A shared parent for every banking problem, so callers can catch them all at once

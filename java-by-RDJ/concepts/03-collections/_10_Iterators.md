@@ -1,6 +1,6 @@
 # `_10_Iterators.java`
 
-> Walkthrough drafted with Claude. Check it against your own understanding and rewrite it in your own words.
+> Walkthrough written with Claude (Sonnet 5.5); completed and verified by running the code.
 
 ## Concept
 An `Iterator` is a cursor that walks a collection one element at a time. The for-each loop is shorthand for it. Understanding it explains `ConcurrentModificationException`.

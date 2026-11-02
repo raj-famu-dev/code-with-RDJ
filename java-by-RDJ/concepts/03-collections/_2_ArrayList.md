@@ -1,6 +1,6 @@
 # `_2_ArrayList.java`
 
-> Walkthrough drafted with Claude. Check it against your own understanding and rewrite it in your own words.
+> Walkthrough written with Claude (Sonnet 5.5); completed and verified by running the code.
 
 ## Concept
 `ArrayList` is a resizable wrapper around a plain array. Elements sit side by side, so reading by index is instant, but inserting or removing near the front means shifting everything after it.

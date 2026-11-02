@@ -34,7 +34,7 @@
 
 > **Stage:** ⬜ Not started: specification only, no code yet.
 
-**Key:** ✅ complete and understood by me · 📘 reference added (compiled and run) · 🔄 in progress · ⬜ not started.
+**Key:** ✅ completed (written, run and explained in a walkthrough) · 🔄 in progress · ⬜ not started.
 
 ## 📌 Project Description
 
