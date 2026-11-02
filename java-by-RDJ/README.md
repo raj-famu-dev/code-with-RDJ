@@ -61,8 +61,8 @@ I'm not asking to be trusted on claims. I'm asking to be evaluated on evidence �
 | `concepts/10-jdbc-sql` | SQL, JDBC, transactions, DAO | ⬜ Not Started |
 | `concepts/11-testing` | JUnit 5, Mockito, TDD, coverage | ⬜ Not Started |
 | `concepts/12-build-tools` | Maven and Gradle | ⬜ Not Started |
-| `concepts/13-design-patterns` | SOLID and core patterns | ⬜ Not Started |
-| `concepts/14-dsa-in-java` | Data structures and algorithms from scratch | ⬜ Not Started |
+| [`concepts/13-design-patterns`](./concepts/13-design-patterns) | SOLID and 9 core patterns, with a Strategy + Observer refactor (10 topics) | 📘 Reference added |
+| [`concepts/14-dsa-in-java`](./concepts/14-dsa-in-java) | 8 data structures built from scratch with Big-O; algorithms list and problem log still open | 📘 Structures added (algorithms ⬜) |
 | `concepts/15-spring-boot` | REST, JPA, security, testing, Docker | ⬜ Not Started |
 | `projects/project-01-calculator` | First real application | ⬜ Not Started |
 | `projects/project-02-todo-app` | CRUD logic, collections in practice | ⬜ Not Started |
@@ -91,6 +91,8 @@ I'm not asking to be trusted on claims. I'm asking to be evaluated on evidence �
 - **`07-file-io`:** 📘 Reference added: 7 files, each with a walkthrough, all compiled and run. Next for me: retype each one, break it, and rewrite the `.md` in my own words
 - **`08-lambdas-streams`:** 📘 Reference added: 8 files, each with a walkthrough, all compiled and run. Next for me: retype each one, break it, and rewrite the `.md` in my own words
 - **`09-modern-java`:** 📘 Reference added: 7 files, each with a walkthrough, all compiled and run (JDK 21). Next for me: retype each one, break it, and rewrite the `.md` in my own words
+- **`13-design-patterns`:** 📘 Reference added: 10 files, each with a walkthrough (problem, solution, trade-off), all compiled and run. `_10` is a miniature bank because `project-03` is still only a spec. Next for me: retype each one, break it, and rewrite the `.md` in my own words
+- **`14-dsa-in-java`:** 📘 Reference added for the 8 structures (each with a Big-O table and a seeded oracle test against the JDK class), all compiled and run. Not done: the algorithms list and my own problem log (`problems.md` starts at 0)
 - **Projects:** `project-04-grade-manager` ✅ Complete (capstone for `01-basics`); `project-01` to `project-03` and `project-05` to `project-08` ⬜ Not Started
 
 *This log is updated after every session — not just when something impressive happens, but every time, to keep the record honest.*
