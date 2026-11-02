@@ -1,12 +1,29 @@
-# 📘 01 — Java Basics
+<div align="center">
 
-> Foundational Java syntax and core language mechanics — the building blocks every later concept (OOP, collections, exceptions, multithreading) depends on.
+<img src="../../assets/modules/01-basics.svg" alt="Java Basics: Variables, types, control flow, methods, arrays. Animated banner by Raj Patel (RDJ)." width="100%"/>
 
-![Language](https://img.shields.io/badge/Language-Java%2021-orange)
-![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
-![Type](https://img.shields.io/badge/Type-Concept%20Practice-blue)
+<br/>
+
+![Status](https://img.shields.io/badge/Status-Complete-22C55E?style=for-the-badge)
+![Topics](https://img.shields.io/badge/Topics-11-7C3AED?style=for-the-badge)
+![Java](https://img.shields.io/badge/Java-21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Author](https://img.shields.io/badge/By-Raj%20Patel%20(RDJ)-22D3EE?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge)
+![Type](https://img.shields.io/badge/Type-Concept%20Practice-3B82F6?style=for-the-badge)
+
+*Variables, types, control flow, methods, arrays*
+
+[About This Folder](#-about-this-folder) •
+[Progress Tracker](#-progress-tracker) •
+[Concept Log](#-concept-log)
+
+[Java Mastery Lab](../../README.md) · [Module 02](../02-oop/) ➡
+
+</div>
 
 ---
+
+> Foundational Java syntax and core language mechanics — the building blocks every later concept (OOP, collections, exceptions, multithreading) depends on.
 
 ## 📌 About This Folder
 
@@ -332,3 +349,21 @@ This log feeds directly into the top-level portfolio `StudentGradeManager.md` on
 ## ➡️ Next Up
 
 `01-basics` is complete. `02-oop` is also now complete (all 14 topics — see [`concepts/02-oop/README.md`](../02-oop/README.md)). Currently working through **`03-collections`**.
+
+---
+
+<div align="center">
+
+### 👨‍💻 Built and owned by Raj Patel (RDJ)
+
+Computer Science undergraduate at **Florida A&M University** · Tallahassee, Florida · GitHub [`raj-famu-dev`](https://github.com/raj-famu-dev)
+
+This is my personal learning lab and portfolio. I build it, I maintain it, and I am accountable for what it claims.
+
+<sub>Every `.java` file and walkthrough in this folder was written by me.</sub>
+
+[Java Mastery Lab](../../README.md) · [Module 02](../02-oop/) ➡
+
+**© 2026 Raj Patel (RDJ).** Released under the [MIT License](../../LICENSE).
+
+</div>

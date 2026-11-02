@@ -1,6 +1,41 @@
-# Project 01 — Console Calculator
+<div align="center">
 
-**Status:** ⬜ Not started · **Needs:** `01-basics` only
+<img src="../../assets/modules/project-01-calculator.svg" alt="Console Calculator: Parse and evaluate expressions. Animated banner by Raj Patel (RDJ)." width="100%"/>
+
+<br/>
+
+![Status](https://img.shields.io/badge/Status-Spec%20Only-64748B?style=for-the-badge)
+![Java](https://img.shields.io/badge/Java-21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Author](https://img.shields.io/badge/By-Raj%20Patel%20(RDJ)-22D3EE?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge)
+
+*Parse and evaluate expressions*
+
+[At a Glance](#-at-a-glance) •
+[Project Description](#-project-description) •
+[Requirements](#-requirements) •
+[Things to Decide and Document in the Project `.md`](#-things-to-decide-and-document-in-the-project-md) •
+[Definition of Done](#-definition-of-done) •
+[Possible Extensions](#-possible-extensions)
+
+[Java Mastery Lab](../../README.md) · [Project 02](../project-02-todo-app/) ➡
+
+</div>
+
+---
+
+## 🎯 At a Glance
+
+| | |
+|---|---|
+| **Status** | ⬜ Not started |
+| **Needs** | [`01-basics`](../../concepts/01-basics/) only |
+| **Folder** | `java-by-RDJ/projects/project-01-calculator` |
+| **Author** | Raj Patel (RDJ) |
+
+> **Stage:** ⬜ Not started: specification only, no code yet.
+
+**Key:** ✅ complete and understood by me · 📘 reference added (compiled and run) · 🔄 in progress · ⬜ not started.
 
 ## 📌 Project Description
 
@@ -36,3 +71,21 @@ A menu-driven console calculator that never crashes. It is the first real progra
 ## 🚀 Possible Extensions
 - Expression parsing (`2 + 3 * 4`) with correct operator precedence
 - Replace the history array with an `ArrayList` after finishing `03-collections`
+
+---
+
+<div align="center">
+
+### 👨‍💻 Built and owned by Raj Patel (RDJ)
+
+Computer Science undergraduate at **Florida A&M University** · Tallahassee, Florida · GitHub [`raj-famu-dev`](https://github.com/raj-famu-dev)
+
+This is my personal learning lab and portfolio. I build it, I maintain it, and I am accountable for what it claims.
+
+<sub>This is a specification. No code exists yet, and it turns ✅ only when there is a working, tested, runnable program.</sub>
+
+[Java Mastery Lab](../../README.md) · [Project 02](../project-02-todo-app/) ➡
+
+**© 2026 Raj Patel (RDJ).** Released under the [MIT License](../../LICENSE).
+
+</div>

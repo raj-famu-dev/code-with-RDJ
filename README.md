@@ -131,7 +131,7 @@ Security work is done **only** on systems I own, in legal training labs, and on 
 
 ## 📜 License
 
-[MIT](./LICENSE) © 2026 raj-famu-dev
+[MIT](./LICENSE) © 2026 Raj Patel (RDJ), `raj-famu-dev`
 
 <div align="center">
 

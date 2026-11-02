@@ -1,12 +1,29 @@
-# 📘 02 — Object-Oriented Programming (OOP)
+<div align="center">
 
-> The four pillars — Encapsulation, Inheritance, Polymorphism, Abstraction — and everything that supports them. This is where Java stops being just syntax and starts being a way of modeling real systems.
+<img src="../../assets/modules/02-oop.svg" alt="Object-Oriented Programming: Classes, encapsulation, inheritance, polymorphism. Animated banner by Raj Patel (RDJ)." width="100%"/>
 
-![Language](https://img.shields.io/badge/Language-Java%2021-orange)
-![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
-![Type](https://img.shields.io/badge/Type-Concept%20Practice-blue)
+<br/>
+
+![Status](https://img.shields.io/badge/Status-Complete-22C55E?style=for-the-badge)
+![Topics](https://img.shields.io/badge/Topics-14-7C3AED?style=for-the-badge)
+![Java](https://img.shields.io/badge/Java-21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Author](https://img.shields.io/badge/By-Raj%20Patel%20(RDJ)-22D3EE?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge)
+![Type](https://img.shields.io/badge/Type-Concept%20Practice-3B82F6?style=for-the-badge)
+
+*Classes, encapsulation, inheritance, polymorphism*
+
+[About This Folder](#-about-this-folder) •
+[Progress Tracker](#-progress-tracker) •
+[Concept Log](#-concept-log)
+
+⬅ [Module 01](../01-basics/) · [Java Mastery Lab](../../README.md) · [Module 03](../03-collections/) ➡
+
+</div>
 
 ---
+
+> The four pillars — Encapsulation, Inheritance, Polymorphism, Abstraction — and everything that supports them. This is where Java stops being just syntax and starts being a way of modeling real systems.
 
 ## 📌 About This Folder
 
@@ -430,3 +447,21 @@ This log feeds directly into the top-level portfolio `StudentGradeManager.md` on
 ## ➡️ Next Up
 
 `02-oop` is complete. Moving to **`03-collections`**, starting with **Lists (ArrayList, LinkedList)**.
+
+---
+
+<div align="center">
+
+### 👨‍💻 Built and owned by Raj Patel (RDJ)
+
+Computer Science undergraduate at **Florida A&M University** · Tallahassee, Florida · GitHub [`raj-famu-dev`](https://github.com/raj-famu-dev)
+
+This is my personal learning lab and portfolio. I build it, I maintain it, and I am accountable for what it claims.
+
+<sub>Every `.java` file and walkthrough in this folder was written by me.</sub>
+
+⬅ [Module 01](../01-basics/) · [Java Mastery Lab](../../README.md) · [Module 03](../03-collections/) ➡
+
+**© 2026 Raj Patel (RDJ).** Released under the [MIT License](../../LICENSE).
+
+</div>
