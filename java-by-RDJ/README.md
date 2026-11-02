@@ -15,7 +15,7 @@
 
 This isn't just a collection of practice files — it's a documented, timestamped record of the exact path I'm taking to go from beginner to industry-ready software engineer.
 
-Every file here was written, tested, debugged, and understood by me — not copy-pasted. Every commit represents a real session of learning, a real bug I hit and fixed, or a real concept I finally understood well enough to explain in my own words.
+The files in `01-basics` and `02-oop` were written, tested, and debugged by me. From `03-collections` onward, each concept file and its walkthrough was first drafted with Claude as reference material, and every one of those files says so in a header comment on its first line. A topic only counts as learned once I have retyped it, broken it on purpose, and rewritten the walkthrough in my own words. Every commit represents a real session of learning, a real bug I hit and fixed, or a real concept I finally understood well enough to explain in my own words.
 
 Every concept file also has a matching, full line-by-line explanation document alongside it — not just comments in the code, but a standalone breakdown of *why* each line exists and what it does. I'm building this in public because I want the process to be visible, not just the outcome.
 
@@ -51,7 +51,7 @@ I'm not asking to be trusted on claims. I'm asking to be evaluated on evidence �
 |---|---|:---:|
 | [`concepts/01-basics`](./concepts/01-basics) | Syntax, variables, control flow, loops, arrays, strings, methods | ✅ Complete |
 | [`concepts/02-oop`](./concepts/02-oop) | Classes, inheritance, polymorphism, abstraction | ✅ Complete |
-| `concepts/03-collections` | Lists, Sets, Maps, Generics | 🔄 In Progress |
+| [`concepts/03-collections`](./concepts/03-collections) | Lists, Sets, Maps, Queues, iterators, comparators (13 topics) | 📘 Reference added |
 | `concepts/04-exceptions` | Error handling, custom exceptions | ⬜ Not Started |
 | `concepts/05-multithreading` | Concurrency fundamentals | ⬜ Not Started |
 | `concepts/06-generics` | Generic classes, bounded types, wildcards | ⬜ Not Started |
@@ -73,6 +73,8 @@ I'm not asking to be trusted on claims. I'm asking to be evaluated on evidence �
 | `projects/project-07-task-api-spring-boot` | Deployed REST API with auth, tests, Docker | ⬜ Not Started |
 | `projects/project-08-llm-client-service` | Reliable LLM API client, evals (bridge to AI track) | ⬜ Not Started |
 
+**Status key:** ✅ complete and understood by me · 📘 reference code and walkthrough added (compiled and run), not yet retyped or practiced by me · 🔄 in progress · ⬜ not started
+
 **Order of work:** finish `03` → `04` → `05` first, then projects `01` to `03`. Next come `06` to `08` and `12`. Everything else is built in order after that, with `14` (DSA) running in parallel at 30 minutes a day. Each folder README lists its planned files with the exact filenames to use, so the structure stays consistent with `01-basics` and `02-oop`. A folder only turns ✅ when every planned file and its matching `.md` are committed.
 
 ---
@@ -82,7 +84,7 @@ I'm not asking to be trusted on claims. I'm asking to be evaluated on evidence �
 - **Started:** September 23, 2026
 - **`01-basics`:** ✅ Complete — Variables, Operators, Type Casting, Control Flow, Loops, Arrays, Strings, Methods, User Input, Output Formatting
 - **`02-oop`:** ✅ Complete — Classes/Objects, Constructors, `this`, Encapsulation, Static vs Instance, Inheritance, Polymorphism, Abstract Classes, Interfaces, Access Modifiers, Enums, equals/hashCode/toString, Composition, and a full capstone combining all four pillars
-- **`03-collections`:** 🔄 In Progress
+- **`03-collections`:** 📘 Reference added: 13 files, each with a walkthrough, all compiled and run. Next for me: retype each one, break it, and rewrite the `.md` in my own words
 - **`04-exceptions`:** ⬜ Not Started
 - **`05-multithreading`:** ⬜ Not Started
 - **Projects:** `project-04-grade-manager` ✅ Complete (capstone for `01-basics`); `project-01` to `project-03` and `project-05` to `project-08` ⬜ Not Started
