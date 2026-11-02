@@ -54,9 +54,26 @@ I'm not asking to be trusted on claims. I'm asking to be evaluated on evidence �
 | `concepts/03-collections` | Lists, Sets, Maps, Generics | 🔄 In Progress |
 | `concepts/04-exceptions` | Error handling, custom exceptions | ⬜ Not Started |
 | `concepts/05-multithreading` | Concurrency fundamentals | ⬜ Not Started |
+| `concepts/06-generics` | Generic classes, bounded types, wildcards | ⬜ Not Started |
+| `concepts/07-file-io` | NIO.2, text and binary files, CSV/JSON | ⬜ Not Started |
+| `concepts/08-lambdas-streams` | Functional interfaces, streams, Optional | ⬜ Not Started |
+| `concepts/09-modern-java` | Records, sealed classes, pattern matching, `java.time`, `HttpClient` | ⬜ Not Started |
+| `concepts/10-jdbc-sql` | SQL, JDBC, transactions, DAO | ⬜ Not Started |
+| `concepts/11-testing` | JUnit 5, Mockito, TDD, coverage | ⬜ Not Started |
+| `concepts/12-build-tools` | Maven and Gradle | ⬜ Not Started |
+| `concepts/13-design-patterns` | SOLID and core patterns | ⬜ Not Started |
+| `concepts/14-dsa-in-java` | Data structures and algorithms from scratch | ⬜ Not Started |
+| `concepts/15-spring-boot` | REST, JPA, security, testing, Docker | ⬜ Not Started |
 | `projects/project-01-calculator` | First real application | ⬜ Not Started |
 | `projects/project-02-todo-app` | CRUD logic, collections in practice | ⬜ Not Started |
 | `projects/project-03-bank-system` | OOP + exception handling combined | ⬜ Not Started |
+| [`projects/project-04-grade-manager`](./projects/project-04-grade-manager) | Capstone for `01-basics` | ✅ Complete |
+| `projects/project-05-contact-book` | File I/O, validation, safe writes | ⬜ Not Started |
+| `projects/project-06-concurrent-file-processor` | Thread pools, measured speedup | ⬜ Not Started |
+| `projects/project-07-task-api-spring-boot` | Deployed REST API with auth, tests, Docker | ⬜ Not Started |
+| `projects/project-08-llm-client-service` | Reliable LLM API client, evals (bridge to AI track) | ⬜ Not Started |
+
+**Order of work:** finish `03` → `04` → `05` first, then projects `01` to `03`. Next come `06` to `08` and `12`. Everything else is built in order after that, with `14` (DSA) running in parallel at 30 minutes a day. Each folder README lists its planned files with the exact filenames to use, so the structure stays consistent with `01-basics` and `02-oop`. A folder only turns ✅ when every planned file and its matching `.md` are committed.
 
 ---
 
@@ -68,7 +85,7 @@ I'm not asking to be trusted on claims. I'm asking to be evaluated on evidence �
 - **`03-collections`:** 🔄 In Progress
 - **`04-exceptions`:** ⬜ Not Started
 - **`05-multithreading`:** ⬜ Not Started
-- **Projects:** ⬜ Not Started
+- **Projects:** `project-04-grade-manager` ✅ Complete (capstone for `01-basics`); `project-01` to `project-03` and `project-05` to `project-08` ⬜ Not Started
 
 *This log is updated after every session — not just when something impressive happens, but every time, to keep the record honest.*
 
