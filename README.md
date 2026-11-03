@@ -11,6 +11,7 @@
 ![Status](https://img.shields.io/badge/Status-Building%20in%20Public-0EA5E9?style=for-the-badge)
 ![University](https://img.shields.io/badge/Florida%20A%26M%20University-Computer%20Science-F58025?style=for-the-badge)
 ![Location](https://img.shields.io/badge/Tallahassee%2C%20FL-22C55E?style=for-the-badge&logo=googlemaps&logoColor=white)
+[![Instagram](https://img.shields.io/badge/Instagram-@rdj__369-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/rdj_369)
 ![License](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge)
 
 ### *What can one disciplined CS student prove, in public, in 12 months?*
@@ -125,7 +126,7 @@ A 60-second tour, in the order that is most useful:
 5. **Networking fundamentals:** [`computer-network-by-RDJ`](./computer-network-by-RDJ), especially [`03-network-layer`](./computer-network-by-RDJ/concepts/03-network-layer) (subnetting, routing and ICMP simulators) and [`04-transport-layer`](./computer-network-by-RDJ/concepts/04-transport-layer) (TCP state machine, congestion control, sockets on loopback).
 6. **How I think about correctness:** [`14-dsa-in-java`](./java-by-RDJ/concepts/14-dsa-in-java) builds each structure without the JDK collections, then checks it against the JDK class on thousands of seeded random operations.
 
-**Looking for:** AI engineering or software engineering internships and junior roles. **Based in:** Tallahassee, Florida. **Contact:** through my GitHub profile, [`raj-famu-dev`](https://github.com/raj-famu-dev).
+**Looking for:** AI engineering or software engineering internships and junior roles. **Based in:** Tallahassee, Florida. **Contact:** through my GitHub profile, [`raj-famu-dev`](https://github.com/raj-famu-dev), or on Instagram, [`@rdj_369`](https://instagram.com/rdj_369).
 
 ---
 
