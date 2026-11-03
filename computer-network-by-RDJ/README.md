@@ -18,6 +18,7 @@
 [Video Map](#-video-map) •
 [What a Reviewer Can Verify](#-what-a-reviewer-can-verify) •
 [Progress](#-progress) •
+[Notes](./notes.md) •
 [Structure](#-structure) •
 [Topic Index](#-topic-index) •
 [Run It Yourself](#-run-it-yourself) •
@@ -85,6 +86,7 @@ The curriculum follows the six chapters of [Complete CN Computer Networks in One
 ## 📂 Structure
 
 - **[`concepts/`](./concepts)**: one topic per file pair, a runnable `_N_Name.py` and a matching study note `_N_Name.md`.
+- **[`notes.md`](./notes.md)**: consolidated study notes covering every module and topic with detailed explanations.
 - **[`assets/`](./assets)**: the animated banner, progress card and per-module banners.
 
 | Module | Topics | Focus | Status |
