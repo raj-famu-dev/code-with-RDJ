@@ -18,6 +18,7 @@
 [Concurrency](#-concurrency-at-a-glance) •
 [Method](#-method) •
 [Run It](#-run-it-yourself) •
+[Notes](./notes.md) •
 [Structure](#-structure) •
 [Log](#-progress-log)
 
@@ -67,6 +68,7 @@ I want to work on a strong engineering team, where the bar is high and the probl
 
 - **[`concepts/`](./concepts)**: isolated practice files, one core Java concept at a time, each with a working `.java` file *and* a matching `.md` explaining it line by line.
 - **[`projects/`](./projects)**: mini-applications that combine several concepts.
+- **[`notes.md`](./notes.md)**: consolidated study notes covering every completed module and topic with detailed explanations.
 
 | Folder | Focus | Status |
 |---|---|:---:|
