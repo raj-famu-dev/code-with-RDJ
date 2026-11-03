@@ -17,6 +17,7 @@
 [The Goal](#-the-goal) •
 [What a Reviewer Can Verify](#-what-a-reviewer-can-verify) •
 [Progress](#-progress) •
+[Notes](./notes.md) •
 [Structure](#-structure) •
 [Run It Yourself](#-run-it-yourself) •
 [Progress Log](#-progress-log)
@@ -65,6 +66,7 @@ This is **Raj Patel's** ("RDJ") record of learning C++ as a Computer Science stu
 
 - **[`concepts/`](./concepts)**: one topic per file, each with a compilable `.cpp` and a matching `.md` explaining it line by line.
 - **[`projects/`](./projects)**: complete programs with a Makefile and tests.
+- **[`notes.md`](./notes.md)**: consolidated study notes covering every completed module and topic with detailed explanations.
 
 | Folder | Focus | Status |
 |---|---|:---:|
