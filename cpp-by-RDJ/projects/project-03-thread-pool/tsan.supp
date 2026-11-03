@@ -1,0 +1,9 @@
+# ThreadSanitizer suppressions for a KNOWN libstdc++ interaction (GCC 13 libstdc++.so is not instrumented by TSan).
+# The std::exception_ptr reference count and the exception object's destruction are synchronised by atomics inside
+# libstdc++.so, which TSan cannot see, so it reports a race between reading e.what() in the catch block and the
+# worker thread destroying its copy of the exception. The same two reports appear for a plain std::promise +
+# std::thread program that does not use ThreadPool at all (see README, "TSan result").
+# These patterns are deliberately narrow: only frames inside exception_ptr release and exception destructors.
+race:std::__exception_ptr::exception_ptr::_M_release
+race:std::runtime_error::~runtime_error
+race:std::logic_error::~logic_error
