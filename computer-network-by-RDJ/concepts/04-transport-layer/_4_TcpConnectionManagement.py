@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #TransportLayer #TcpConnectionManagement | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """TCP connection management: three-way handshake with ISNs, four-way close,
 TIME_WAIT, half-close, RST, simultaneous open, and the RFC state machine as a

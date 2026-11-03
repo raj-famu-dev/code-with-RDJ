@@ -1,3 +1,4 @@
+# Tags: #Python #FileIO #JSON #CsvFiles | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Teaches the csv module: reader/writer, DictReader/DictWriter, quoting rules,
 and the two classic traps: naive split(',') and forgetting newline=''.

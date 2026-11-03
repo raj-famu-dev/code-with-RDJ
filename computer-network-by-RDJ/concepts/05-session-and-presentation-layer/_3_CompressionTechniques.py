@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #SessionLayer #PresentationLayer #CompressionTechniques | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Presentation-layer compression: lossless vs lossy, run-length encoding,
 Huffman coding (code table + ratio), a small LZW, and a measured zlib

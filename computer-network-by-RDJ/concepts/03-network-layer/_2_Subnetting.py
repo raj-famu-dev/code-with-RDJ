@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #NetworkLayer #Subnetting | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Fixed-length subnetting: subnet mask, borrowing host bits, number of subnets
 (2^n) and hosts (2^h - 2), a full subnet table, and the classic traps."""

@@ -1,3 +1,4 @@
+// Tags: #Java #Basics #Loops | @rdj_369 | Java 21 (JDK 21)
 public class _6_Loops {
     public static void main(String[] args) {
 

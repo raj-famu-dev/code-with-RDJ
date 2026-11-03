@@ -1,3 +1,4 @@
+// Tags: #Java #OOP #Inheritance | @rdj_369 | Java 21 (JDK 21)
 public class _6_Inheritance {
     public static void main(String[] args) {
 

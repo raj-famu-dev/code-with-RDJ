@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #NetworkLayer #Ipv6 | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """IPv6: 128-bit addresses, compression rules, address types, the fixed 40-byte
 header (build/parse with struct), extension headers, transition mechanisms and

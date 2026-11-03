@@ -1,3 +1,4 @@
+# Tags: #Python #OOP #Modules #PolymorphismDuckTyping | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Polymorphism in Python: duck typing, typing.Protocol (structural typing),
 and how both differ from Java interfaces."""

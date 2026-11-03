@@ -1,3 +1,4 @@
+# Tags: #Python #DataScience #NumPy #Pandas #StatisticsBasics | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Descriptive statistics by hand and with NumPy: mean, median, variance, standard
 deviation, correlation, each with a plain-English meaning."""

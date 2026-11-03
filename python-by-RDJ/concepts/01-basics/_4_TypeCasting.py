@@ -1,3 +1,4 @@
+# Tags: #Python #Basics #TypeCasting | @rdj_369 | Python 3.13
 # ============================================
 # TOPIC 4: TYPE CASTING
 # Python calls this "type conversion" more often than "casting",

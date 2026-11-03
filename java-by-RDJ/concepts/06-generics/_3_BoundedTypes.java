@@ -1,3 +1,4 @@
+// Tags: #Java #Generics #BoundedTypes | @rdj_369 | Java 21 (JDK 21)
 // Completed and verified (compiled and run on JDK 21). Written with Claude (Sonnet 5.5); authorship disclosed.
 import java.util.ArrayList;
 import java.util.List;

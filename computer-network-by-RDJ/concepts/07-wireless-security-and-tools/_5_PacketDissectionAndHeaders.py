@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #Wireless #NetworkSecurity #PacketDissectionHeaders | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Packet dissection and headers: hand-build an Ethernet + IPv4 + TCP frame
 carrying an HTTP request with struct, dissect it back layer by layer, verify the

@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #NetworkLayer #LinkStateRouting | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Link-state routing: every router floods an LSA (with sequence number),
 builds an identical link-state database (LSDB), and runs SPF (Dijkstra) on it.

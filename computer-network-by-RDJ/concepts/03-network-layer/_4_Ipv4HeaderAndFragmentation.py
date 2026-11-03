@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #NetworkLayer #Ipv4HeaderFragmentation | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """IPv4 header: build and parse with struct, header checksum, TTL, flags
 DF/MF, fragment offset (8-byte units), MTU fragmentation and reassembly."""

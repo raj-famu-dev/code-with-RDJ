@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #DataLinkLayer #SwitchesBridgesVlan | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Switches, bridges and VLANs: transparent-bridge learning, flooding,
 filtering and forwarding-table aging; the broadcast-storm loop problem and the

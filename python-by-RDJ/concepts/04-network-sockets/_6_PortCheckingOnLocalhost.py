@@ -1,3 +1,4 @@
+# Tags: #Python #Networking #Sockets #PortCheckingLocalhost | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Teaches how to check whether a TCP port is open, using connect_ex, against
 YOUR OWN machine only (127.0.0.1). We start one listener ourselves and find one

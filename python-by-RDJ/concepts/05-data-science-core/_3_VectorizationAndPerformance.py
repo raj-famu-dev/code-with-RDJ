@@ -1,3 +1,4 @@
+# Tags: #Python #DataScience #NumPy #Pandas #VectorizationPerformance | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Vectorisation: replacing Python loops with whole-array operations.
 All timings printed here are MEASUREMENTS from this run on this machine.

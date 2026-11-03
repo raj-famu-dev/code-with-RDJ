@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #NetworkLayer #VlsmCidr | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """VLSM allocation (largest first), CIDR notation, route aggregation
 (supernetting) and longest-prefix-match lookup, cross-checked with ipaddress."""

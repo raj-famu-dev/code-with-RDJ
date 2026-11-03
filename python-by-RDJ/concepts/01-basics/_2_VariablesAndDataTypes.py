@@ -1,3 +1,4 @@
+# Tags: #Python #Basics #VariablesDataTypes | @rdj_369 | Python 3.13
 # ============================================
 # TOPIC 2: VARIABLES & DATA TYPES
 # Python is DYNAMICALLY typed - you never declare a type.

@@ -1,3 +1,4 @@
+# Tags: #Python #OOP #Modules #Encapsulation | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Encapsulation in Python: naming conventions, name mangling, and @property
 for validated attributes. Python has no private keyword."""

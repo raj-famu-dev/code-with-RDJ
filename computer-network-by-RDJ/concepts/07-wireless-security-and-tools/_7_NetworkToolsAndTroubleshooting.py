@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #Wireless #NetworkSecurity #NetworkToolsTroubleshooting | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Network tools and troubleshooting: what ping, traceroute, nslookup/dig,
 netstat/ss, ip/ifconfig, arp, curl, nmap and Wireshark each do and which layer

@@ -1,3 +1,4 @@
+// Tags: #Java #OOP #AbstractClasses | @rdj_369 | Java 21 (JDK 21)
 public class _8_AbstractClasses {
     public static void main(String[] args) {
 

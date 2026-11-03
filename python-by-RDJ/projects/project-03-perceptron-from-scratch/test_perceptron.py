@@ -1,3 +1,4 @@
+# Tags: #Python #Project #MachineLearning #NeuralNetworks #Tests #perceptron | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """pytest tests for perceptron.py."""
 

@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #Wireless #NetworkSecurity #VpnTunnelingNetworkSecurityModels | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """VPNs, tunnelling and security models: encapsulation and its overhead, GRE vs
 IPsec (AH vs ESP, transport vs tunnel mode) with a toy integrity/confidentiality

@@ -1,3 +1,4 @@
+# Tags: #Python #Basics #UserInput | @rdj_369 | Python 3.13
 # ============================================
 # TOPIC 10: USER INPUT
 # Python's input() is DRAMATICALLY simpler than Java's Scanner.

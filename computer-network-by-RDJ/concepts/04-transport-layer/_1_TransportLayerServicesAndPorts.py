@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #TransportLayer #TransportLayerServicesPorts | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Transport layer services: process-to-process delivery, port numbers (well-known,
 registered, dynamic), sockets as IP+port, the 5-tuple, multiplexing and

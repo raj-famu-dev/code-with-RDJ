@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #ApplicationLayer #HttpVersionsWebArchitecture | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Teaches HTTP/1.0 vs 1.1 vs 2 vs 3 (persistent connections, pipelining,
 multiplexing, header compression, QUIC), a head-of-line blocking simulation,

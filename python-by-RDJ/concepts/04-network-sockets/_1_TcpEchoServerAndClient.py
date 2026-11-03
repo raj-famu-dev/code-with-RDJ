@@ -1,3 +1,4 @@
+# Tags: #Python #Networking #Sockets #TcpEchoServerClient | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Teaches TCP sockets from scratch: bind, listen, accept, connect, sendall,
 recv, close. A server runs in a background thread and a client talks to it,

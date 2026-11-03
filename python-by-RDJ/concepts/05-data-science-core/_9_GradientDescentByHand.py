@@ -1,3 +1,4 @@
+# Tags: #Python #DataScience #NumPy #Pandas #GradientDescentByHand | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Linear regression trained by gradient descent in NumPy, on seeded synthetic
 data: loss, gradient, learning rate, convergence, and a comparison with the

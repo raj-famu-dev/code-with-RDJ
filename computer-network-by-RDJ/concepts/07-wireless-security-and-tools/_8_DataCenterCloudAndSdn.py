@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #Wireless #NetworkSecurity #DataCenterCloudSdn | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Data-center, cloud and SDN networking: three-tier vs leaf-spine vs fat-tree
 topologies with link/path counts verified by graph search, cloud VPC subnets and

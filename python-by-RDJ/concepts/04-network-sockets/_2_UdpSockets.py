@@ -1,3 +1,4 @@
+# Tags: #Python #Networking #Sockets #UdpSockets | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Teaches UDP sockets: SOCK_DGRAM, sendto/recvfrom, no connection, and the key
 contrast with TCP: UDP keeps message boundaries, TCP is a byte stream.

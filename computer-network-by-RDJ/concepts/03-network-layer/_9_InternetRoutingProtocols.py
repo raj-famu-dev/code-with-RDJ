@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #NetworkLayer #InternetRoutingProtocols | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Internet routing: autonomous systems, IGP vs EGP, RIP (hop limit 15, timers),
 OSPF cost, and BGP as a path-vector protocol with loop prevention and policy

@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #DataLinkLayer #EthernetMacAddressing | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Ethernet (IEEE 802.3) frame layout and MAC addressing: preamble, SFD,
 destination, source, type, payload, FCS packed and parsed with struct, address

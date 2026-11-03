@@ -1,3 +1,4 @@
+// Tags: #Java #Project #GradeManager #StudentGradeManager | @rdj_369 | Java 21 (JDK 21)
 import java.util.Scanner;
 
 // ============================================================

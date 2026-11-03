@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #DataLinkLayer #ChannelAllocationAloha | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Channel allocation and ALOHA: static (FDM/TDM) vs dynamic allocation, pure
 ALOHA vulnerable period, slotted ALOHA, throughput S = G e^-2G and S = G e^-G,

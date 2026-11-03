@@ -1,3 +1,4 @@
+// Tags: #Cpp #Project #MemorySafety #Sanitizers #useafterfree | @rdj_369 | C++20 (g++ 13)
 // Completed and verified (g++ 13, -std=c++20). Written with Claude (Sonnet 5.5); authorship disclosed.
 //
 // FIX for bugs/use_after_free.cpp. The block is owned by a std::vector (RAII): it cannot be freed

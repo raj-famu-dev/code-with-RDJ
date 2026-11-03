@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #ApplicationLayer #DnsServerLoopback | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Teaches a tiny authoritative DNS server over UDP on 127.0.0.1 (port 0), a
 hand-built client, TTL caching, the transaction-ID trap, truncation (TC bit) and

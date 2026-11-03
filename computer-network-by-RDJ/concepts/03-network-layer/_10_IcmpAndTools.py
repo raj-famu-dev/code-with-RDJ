@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #NetworkLayer #IcmpTools | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """ICMP: message types/codes, pack/unpack with the Internet checksum, and
 in-memory simulations of ping (RTT table) and traceroute (TTL decrement

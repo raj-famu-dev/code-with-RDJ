@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #ApplicationLayer #HttpHeadersCookiesCaching | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Teaches HTTP headers (Host, User-Agent, Content-Type/Length), cookies and
 sessions (Set-Cookie attributes), conditional GET with ETag/304, Cache-Control,

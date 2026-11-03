@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #NetworkLayer #NetworkLayerServicesIpv4Addressing | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Network layer services (datagram vs virtual circuit, forwarding vs routing)
 and IPv4 addressing: dotted decimal, classful A-E, network/host id, special

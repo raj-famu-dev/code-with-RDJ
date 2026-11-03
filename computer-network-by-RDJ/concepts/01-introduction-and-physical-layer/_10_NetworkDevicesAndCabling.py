@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #PhysicalLayer #NetworkDevicesCabling | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Network devices and cabling: repeater, hub, bridge, switch, router, gateway, NIC,
 modem and access point; collision vs broadcast domains counted from a topology; a

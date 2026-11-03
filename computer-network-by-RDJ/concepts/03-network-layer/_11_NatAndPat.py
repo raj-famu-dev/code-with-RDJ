@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #NetworkLayer #NatPat | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """NAT and PAT simulated in memory: static NAT, dynamic NAT with a pool,
 PAT (overload) with a port translation table, inbound handling, port

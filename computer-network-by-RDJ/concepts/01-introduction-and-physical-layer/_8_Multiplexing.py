@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #PhysicalLayer #Multiplexing | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Multiplexing: FDM channel plans, synchronous TDM frame building, statistical TDM,
 WDM wavelength maths, and spread spectrum (DSSS with the 11-chip Barker code, FHSS).

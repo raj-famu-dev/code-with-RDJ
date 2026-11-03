@@ -1,3 +1,4 @@
+# Tags: #Python #Basics #Loops | @rdj_369 | Python 3.13
 # ============================================
 # TOPIC 6: LOOPS
 # Python has 'for' and 'while' - but NO traditional C-style

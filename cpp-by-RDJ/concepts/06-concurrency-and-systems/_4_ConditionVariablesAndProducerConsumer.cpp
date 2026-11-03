@@ -1,3 +1,4 @@
+// Tags: #Cpp #Concurrency #SystemsProgramming #ConditionVariablesProducerConsumer | @rdj_369 | C++20 (g++ 13)
 // Completed and verified (g++ 13, -std=c++20). Written with Claude (Sonnet 5.5); authorship disclosed.
 /*
  * std::condition_variable and the producer/consumer pattern: a bounded

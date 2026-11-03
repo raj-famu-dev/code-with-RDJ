@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #DataLinkLayer #DataLinkLayerFraming | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Data link layer services and framing: character count, byte stuffing, bit
 stuffing with flag 01111110, and physical-layer coding violations.

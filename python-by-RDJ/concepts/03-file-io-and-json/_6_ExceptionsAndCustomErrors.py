@@ -1,3 +1,4 @@
+# Tags: #Python #FileIO #JSON #ExceptionsCustomErrors | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Teaches Python exception handling: try/except/else/finally, multiple except
 clauses, `raise ... from`, custom exception hierarchies, EAFP vs LBYL, and

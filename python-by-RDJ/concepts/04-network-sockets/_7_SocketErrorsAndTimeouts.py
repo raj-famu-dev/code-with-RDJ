@@ -1,3 +1,4 @@
+# Tags: #Python #Networking #Sockets #SocketErrorsTimeouts | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Teaches the failure modes of sockets on loopback: ConnectionRefusedError,
 timeouts, partial recv() and how a length prefix fixes it, SO_REUSEADDR, and

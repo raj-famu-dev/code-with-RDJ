@@ -1,3 +1,4 @@
+# Tags: #Python #FileIO #JSON #JsonHandling | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Teaches the json module: dumps/loads (strings) vs dump/load (files),
 pretty printing, sort_keys, type mapping, custom encoders for dataclasses and

@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #TransportLayer #TcpCongestionControl | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """TCP congestion control: cwnd, ssthresh, slow start, congestion avoidance (AIMD),
 Tahoe vs Reno vs NewReno, fast recovery, a per-RTT cwnd simulation with text table and

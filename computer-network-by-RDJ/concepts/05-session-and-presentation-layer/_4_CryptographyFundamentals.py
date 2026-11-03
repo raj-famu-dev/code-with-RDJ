@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #SessionLayer #PresentationLayer #CryptographyFundamentals | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Cryptography fundamentals (presentation-layer security): CIA goals,
 classical substitution/transposition ciphers as INSECURE TOYS, symmetric vs

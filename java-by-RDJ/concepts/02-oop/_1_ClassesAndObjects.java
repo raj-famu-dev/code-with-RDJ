@@ -1,3 +1,4 @@
+// Tags: #Java #OOP #ClassesObjects | @rdj_369 | Java 21 (JDK 21)
 public class _1_ClassesAndObjects {
     public static void main(String[] args) {
 

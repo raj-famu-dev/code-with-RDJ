@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #ApplicationLayer #HttpBasics | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Teaches HTTP/1.1 basics: request line, headers, body, methods (safe vs
 idempotent), status code classes, URL anatomy (urllib.parse), a loopback server

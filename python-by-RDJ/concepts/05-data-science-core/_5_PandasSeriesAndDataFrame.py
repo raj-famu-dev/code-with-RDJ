@@ -1,3 +1,4 @@
+# Tags: #Python #DataScience #NumPy #Pandas #PandasSeriesDataFrame | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """pandas Series and DataFrame: constructing them, dtypes, head/info/describe,
 and the index. Written against pandas 3.x (string dtype and copy-on-write defaults)."""

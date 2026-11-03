@@ -1,3 +1,4 @@
+// Tags: #Cpp #Project #DataStructures #LinkedList | @rdj_369 | C++20 (g++ 13)
 // Completed and verified (g++ 13, -std=c++20). Written with Claude (Sonnet 5.5); authorship disclosed.
 //
 // LinkedList<T>: a doubly linked list written from scratch (the idea behind std::list / Java's LinkedList).

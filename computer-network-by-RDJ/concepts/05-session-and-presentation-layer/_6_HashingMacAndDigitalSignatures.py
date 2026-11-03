@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #SessionLayer #PresentationLayer #HashingMacDigitalSignatures | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Hash functions, HMAC, salted password hashing, toy RSA digital signatures,
 the certificate/CA chain idea, and a small tamper-detection demo."""

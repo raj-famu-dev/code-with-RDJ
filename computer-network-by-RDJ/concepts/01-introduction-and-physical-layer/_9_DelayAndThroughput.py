@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #PhysicalLayer #DelayThroughput | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Delay and throughput: transmission, propagation, queuing and processing delay,
 RTT, bandwidth-delay product, throughput vs bandwidth, utilisation of a

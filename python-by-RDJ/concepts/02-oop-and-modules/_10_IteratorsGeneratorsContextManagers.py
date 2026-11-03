@@ -1,3 +1,4 @@
+# Tags: #Python #OOP #Modules #IteratorsGeneratorsContextManagers | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Iterators, generators, generator expressions, and context managers
 (__enter__/__exit__ and contextlib.contextmanager)."""

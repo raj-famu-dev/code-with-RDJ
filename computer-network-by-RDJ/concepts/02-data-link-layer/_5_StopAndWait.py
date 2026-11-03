@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #DataLinkLayer #StopWait | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Stop-and-Wait ARQ: timeout, lost frame, lost ACK, premature timeout, 1-bit
 sequence numbers, efficiency 1/(1+2a), and a seeded event-driven simulator.

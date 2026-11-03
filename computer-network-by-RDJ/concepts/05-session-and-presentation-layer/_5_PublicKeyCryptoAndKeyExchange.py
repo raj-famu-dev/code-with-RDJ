@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #SessionLayer #PresentationLayer #PublicKeyCryptoExchange | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Public-key cryptography: Diffie-Hellman key exchange (tiny worked numbers,
 then a larger toy prime) and textbook RSA with small primes. All TOYS:

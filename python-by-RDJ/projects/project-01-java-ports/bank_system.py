@@ -1,3 +1,4 @@
+# Tags: #Python #Project #JavaToPython #BankSystem | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Bank system: a Python port of project-03 (accounts, custom exceptions, atomic transfers).
 

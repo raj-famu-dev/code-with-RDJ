@@ -1,3 +1,4 @@
+# Tags: #Python #DataScience #NumPy #Pandas #CleaningMissingData | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Cleaning messy data: detecting NaN, fillna/dropna, duplicates, type fixes and
 string cleaning, on a deliberately messy inline dataset (pandas 3.x)."""

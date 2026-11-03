@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #DataLinkLayer #HammingCode | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Hamming single-error-correcting code: redundancy bit formula, parity bits at
 positions 2^k, encoding, syndrome decoding, Hamming distance, and the SEC-DED

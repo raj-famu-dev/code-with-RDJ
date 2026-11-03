@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #NetworkLayer #RoutingBasicsDijkstra | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Routing basics (static vs dynamic, adaptive vs non-adaptive), flooding with a
 hop counter, and Dijkstra's shortest-path algorithm with a step table and

@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #PhysicalLayer #SwitchingTechniques | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Switching techniques: circuit, message and packet switching, datagram vs
 virtual-circuit packet networks, and a worked end-to-end delay comparison.

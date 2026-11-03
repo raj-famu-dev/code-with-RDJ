@@ -1,3 +1,4 @@
+// Tags: #Java #Basics #Methods | @rdj_369 | Java 21 (JDK 21)
 public class _9_Methods {
     public static void main(String[] args) {
 

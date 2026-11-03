@@ -1,3 +1,4 @@
+# Tags: #Python #OOP #Modules #Decorators | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Decorators: function decorators, functools.wraps, decorators with arguments,
 timing/retry/cache examples, class decorators, @staticmethod/@classmethod."""

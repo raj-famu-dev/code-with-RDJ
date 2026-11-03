@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #DataLinkLayer #GoBackN | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Go-Back-N ARQ: sender window 2^m - 1, receiver window 1, cumulative ACKs,
 retransmitting the whole outstanding window after a timeout, the throughput

@@ -1,3 +1,4 @@
+// Tags: #Cpp #Project #MemorySafety #Sanitizers #LabCheck | @rdj_369 | C++20 (g++ 13)
 // Completed and verified (g++ 13, -std=c++20). Written with Claude (Sonnet 5.5); authorship disclosed.
 //
 // Hand-rolled test runner for the memory safety lab (no framework). It launches the lab's OWN toy programs

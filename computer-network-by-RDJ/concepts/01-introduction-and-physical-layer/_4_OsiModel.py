@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #PhysicalLayer #OsiModel | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """The OSI reference model: 7 layers, their jobs, PDU names, example protocols and
 devices, plus a layer-stack simulator that wraps (encapsulates) and unwraps

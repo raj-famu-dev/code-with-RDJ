@@ -1,3 +1,4 @@
+// Tags: #Cpp #OOP #Encapsulation | @rdj_369 | C++20 (g++ 13)
 // Completed and verified (g++ 13, -std=c++20). Written with Claude (Sonnet 5.5); authorship disclosed.
 /*
  * Teaches: private data protecting an invariant, const member functions

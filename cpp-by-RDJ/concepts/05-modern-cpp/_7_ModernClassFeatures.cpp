@@ -1,3 +1,4 @@
+// Tags: #Cpp #ModernCpp #ModernClassFeatures | @rdj_369 | C++20 (g++ 13)
 // Completed and verified (g++ 13, -std=c++20). Written with Claude (Sonnet 5.5); authorship disclosed.
 /*
  * Modern class features: = default and = delete, defaulted comparisons

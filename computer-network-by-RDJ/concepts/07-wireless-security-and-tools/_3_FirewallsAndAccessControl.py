@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #Wireless #NetworkSecurity #FirewallsAccessControl | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Firewalls and access control: firewall types, ACL rule matching with
 first-match-wins and default deny, the rule-order trap, a stateful connection

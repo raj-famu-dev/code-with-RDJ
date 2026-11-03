@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #Wireless #NetworkSecurity #WirelessLansWifi | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Wireless LANs and Wi-Fi (IEEE 802.11): BSS/ESS/AP architecture, free-space
 path loss for 2.4 vs 5 GHz, CSMA/CA with ACK, hidden and exposed terminals and

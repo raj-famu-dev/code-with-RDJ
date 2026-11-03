@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #SessionLayer #PresentationLayer #DataRepresentationEncoding | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """OSI Presentation layer: how data is represented on the wire. ASCII, UTF-8
 byte sequences, byte order (struct), Base64/hex, TLV (the ASN.1 idea) and a

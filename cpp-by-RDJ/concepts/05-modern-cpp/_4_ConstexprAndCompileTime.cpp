@@ -1,3 +1,4 @@
+// Tags: #Cpp #ModernCpp #ConstexprCompileTime | @rdj_369 | C++20 (g++ 13)
 // Completed and verified (g++ 13, -std=c++20). Written with Claude (Sonnet 5.5); authorship disclosed.
 /*
  * constexpr functions (run at compile time OR run time), consteval (compile

@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #PhysicalLayer #NetworkTopologies | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Network topologies: bus, star, ring, mesh, tree, hybrid. Builds each as a graph,
 counts links and ports for n nodes, and simulates node/link failures with a

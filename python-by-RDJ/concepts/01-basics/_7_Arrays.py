@@ -1,3 +1,4 @@
+# Tags: #Python #Basics #Arrays | @rdj_369 | Python 3.13
 # ============================================
 # TOPIC 7: LISTS & ARRAYS
 # Python's 'list' replaces Java's array ENTIRELY for everyday use -

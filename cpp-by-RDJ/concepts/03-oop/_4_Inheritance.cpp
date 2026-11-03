@@ -1,3 +1,4 @@
+// Tags: #Cpp #OOP #Inheritance | @rdj_369 | C++20 (g++ 13)
 // Completed and verified (g++ 13, -std=c++20). Written with Claude (Sonnet 5.5); authorship disclosed.
 /*
  * Teaches: public inheritance, constructor chaining (base first), `protected`,

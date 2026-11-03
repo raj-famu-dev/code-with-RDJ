@@ -1,3 +1,4 @@
+// Tags: #Java #Basics #Strings | @rdj_369 | Java 21 (JDK 21)
 public class _8_Strings {
     public static void main(String[] args) {
 

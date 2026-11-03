@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #ApplicationLayer #SnmpNetworkManagementOtherProtocols | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Teaches SNMP network management (manager, agent, MIB, OID, GET/GETNEXT/SET/TRAP,
 v1/v2c/v3), the ASN.1 BER bytes of a real SNMP message, a simulated MIB walk,

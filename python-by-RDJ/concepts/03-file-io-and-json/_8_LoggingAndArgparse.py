@@ -1,3 +1,4 @@
+# Tags: #Python #FileIO #JSON #LoggingArgparse | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Teaches the logging module (levels, handlers, formatters, logger hierarchy)
 and argparse (positional/optional args, types, choices, flags, errors).

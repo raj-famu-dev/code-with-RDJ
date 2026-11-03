@@ -1,3 +1,4 @@
+// Tags: #Cpp #Project #DataStructures #HashMap | @rdj_369 | C++20 (g++ 13)
 // Completed and verified (g++ 13, -std=c++20). Written with Claude (Sonnet 5.5); authorship disclosed.
 //
 // HashMap<K, V, Hash, KeyEqual>: a hash table with SEPARATE CHAINING, written from scratch

@@ -1,3 +1,4 @@
+// Tags: #Java #OOP #Interfaces | @rdj_369 | Java 21 (JDK 21)
 public class _9_Interfaces {
     public static void main(String[] args) {
 

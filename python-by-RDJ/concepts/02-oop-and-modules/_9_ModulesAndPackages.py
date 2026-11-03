@@ -1,3 +1,4 @@
+# Tags: #Python #OOP #Modules #ModulesPackages | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Modules and packages: builds a small package in a temp directory at runtime,
 imports it via sys.path and importlib, shows __name__ == "__main__", __all__,

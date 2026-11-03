@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #ApplicationLayer #PeerStreaming | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Teaches peer-to-peer file distribution (BitTorrent chunks, rarest-first, hash
 checks, DHT / Kademlia XOR distance), the client-server vs P2P time formulas,

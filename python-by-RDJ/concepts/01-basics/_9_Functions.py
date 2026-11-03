@@ -1,3 +1,4 @@
+# Tags: #Python #Basics #Functions | @rdj_369 | Python 3.13
 # ============================================
 # TOPIC 9: FUNCTIONS
 # Java calls these "methods" and requires a class to contain them.

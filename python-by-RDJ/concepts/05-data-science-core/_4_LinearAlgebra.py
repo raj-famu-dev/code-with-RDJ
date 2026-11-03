@@ -1,3 +1,4 @@
+# Tags: #Python #DataScience #NumPy #Pandas #LinearAlgebra | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Linear algebra with NumPy: dot, matmul (@), transpose, inverse, solve, norms,
 and a tiny worked neural-network layer showing why this is the maths of AI."""

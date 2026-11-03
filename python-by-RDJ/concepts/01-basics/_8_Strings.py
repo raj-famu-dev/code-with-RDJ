@@ -1,3 +1,4 @@
+# Tags: #Python #Basics #Strings | @rdj_369 | Python 3.13
 # ============================================
 # TOPIC 8: STRINGS
 # Strings are immutable in Python too - same core concept as Java.

@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #SessionLayer #PresentationLayer | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """OSI Session layer (layer 5): dialog control (half/full duplex), token
 management, synchronization checkpoints, session establish/maintain/terminate,

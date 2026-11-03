@@ -1,3 +1,4 @@
+# Tags: #Python #Networking #Sockets #ThreadedServerMultipleClients | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Teaches a thread-per-client TCP server: handle several clients at once,
 a thread-safe counter (and the race it prevents), and a clean shutdown.

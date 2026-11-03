@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #ApplicationLayer #DhcpBootstrapping | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Teaches DHCP: the DORA exchange, the packed message format (struct), lease
 timers T1/T2, relay agents, APIPA fallback, an in-memory DHCP server with an

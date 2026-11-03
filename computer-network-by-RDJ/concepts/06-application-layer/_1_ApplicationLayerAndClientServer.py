@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #ApplicationLayer #ApplicationLayerClientServer | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Teaches the application layer: what it does, client-server vs peer-to-peer vs
 hybrid, how to design a tiny application protocol (syntax / semantics / timing),

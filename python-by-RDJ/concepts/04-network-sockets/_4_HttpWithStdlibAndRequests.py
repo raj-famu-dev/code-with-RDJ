@@ -1,3 +1,4 @@
+# Tags: #Python #Networking #Sockets #HttpStdlibRequests | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Teaches HTTP from both sides on loopback only: a tiny JSON server built with
 http.server.ThreadingHTTPServer, queried with urllib (stdlib) and requests.

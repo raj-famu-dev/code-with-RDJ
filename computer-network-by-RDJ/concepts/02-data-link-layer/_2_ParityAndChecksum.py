@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #DataLinkLayer #ParityChecksum | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Error detection basics: single parity bit, 2D parity, and the Internet
 checksum (RFC 1071, one's complement sum). Shows which errors each one misses.

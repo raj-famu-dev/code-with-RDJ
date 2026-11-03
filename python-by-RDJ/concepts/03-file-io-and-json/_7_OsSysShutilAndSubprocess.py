@@ -1,3 +1,4 @@
+# Tags: #Python #FileIO #JSON #OsSysShutilSubprocess | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Teaches the "talk to the operating system" modules: os (environment),
 sys (argv, platform), shutil (copy/move/rmtree) and subprocess (run another

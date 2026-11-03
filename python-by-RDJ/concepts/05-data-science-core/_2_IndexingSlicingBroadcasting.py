@@ -1,3 +1,4 @@
+# Tags: #Python #DataScience #NumPy #Pandas #IndexingSlicingBroadcasting | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Indexing and slicing ndarrays: the views-vs-copies trap, boolean masks,
 fancy indexing, and the broadcasting rules."""

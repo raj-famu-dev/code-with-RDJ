@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #TransportLayer #TcpFlowControl | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """TCP flow control: receiver window (rwnd), byte-based sliding window, zero window
 and window probes, silly window syndrome (trap and fix), Nagle's algorithm and its

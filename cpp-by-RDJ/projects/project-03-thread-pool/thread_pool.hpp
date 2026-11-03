@@ -1,3 +1,4 @@
+// Tags: #Cpp #Project #ThreadPool #Concurrency | @rdj_369 | C++20 (g++ 13)
 // Completed and verified (g++ 13, -std=c++20). Written with Claude (Sonnet 5.5); authorship disclosed.
 //
 // ThreadPool: a fixed set of worker threads (std::jthread) that pull tasks from one shared queue.

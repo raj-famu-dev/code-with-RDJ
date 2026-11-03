@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #DataLinkLayer #HdlcPppArp | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """HDLC, PPP and ARP: HDLC frame with bit stuffing and a 16-bit FCS, PPP framing
 (byte stuffing), phases, PAP vs CHAP, and ARP request/reply packed with struct

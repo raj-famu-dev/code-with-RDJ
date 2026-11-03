@@ -1,3 +1,4 @@
+# Tags: #Python #Networking #Sockets #BinaryProtocolsStruct | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Teaches binary protocol design with the struct module: a tiny packet header,
 pack/unpack, endianness, a checksum, and parsing a handcrafted byte string

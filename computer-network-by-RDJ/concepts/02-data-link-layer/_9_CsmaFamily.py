@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #DataLinkLayer #CsmaFamily | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """CSMA family: 1-persistent, non-persistent and p-persistent CSMA, CSMA/CD with
 binary exponential backoff and the minimum frame size 2*Tp*B, CSMA/CA and the

@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #PhysicalLayer #TcpIpModelEncapsulation | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """TCP/IP model (4 and 5 layer views), OSI vs TCP/IP comparison, and real
 encapsulation: build Ethernet + IPv4 + TCP headers with struct, compute the real

@@ -1,3 +1,4 @@
+# Tags: #Python #FileIO #JSON #Pathlib | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Teaches pathlib.Path: building paths, inspecting them, creating folders,
 globbing, reading/writing, and how it compares to os.path and Java NIO.2.

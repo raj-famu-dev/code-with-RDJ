@@ -1,3 +1,4 @@
+# Tags: #Python #OOP #Modules #Inheritance | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Inheritance: super(), overriding, multiple inheritance, and the MRO
 (method resolution order, C3 linearization)."""

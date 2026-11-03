@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #NetworkLayer #MulticastIgmpMobileIp | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """IP multicast (class D, IGMP group membership, flooding vs reverse path
 forwarding with pruning) and Mobile IP (home agent, foreign agent, care-of

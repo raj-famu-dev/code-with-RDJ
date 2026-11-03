@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #TransportLayer #UdpProtocol | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """UDP: the 8-byte header packed/unpacked with struct, the Internet checksum with
 the IPv4 pseudo-header computed and verified, a real loopback echo with timeouts,

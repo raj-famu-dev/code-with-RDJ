@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #DataLinkLayer #CyclicRedundancyCheck | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Cyclic Redundancy Check: modulo-2 polynomial division on bit strings,
 appended zeros, remainder, verification, burst-error detection, and a bitwise

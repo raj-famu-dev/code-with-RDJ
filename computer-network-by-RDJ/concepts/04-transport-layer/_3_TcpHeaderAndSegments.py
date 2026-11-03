@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #TransportLayer #TcpHeaderSegments | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """TCP header: every field and its size, flag bits, options (MSS, window scale),
 pack/unpack of a real segment with the pseudo-header checksum, sequence numbers as

@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #TransportLayer #SocketProgramming | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """BSD socket programming with TCP: socket/bind/listen/accept/connect/send/recv/close,
 the partial-recv trap, length-prefixed framing, a threaded multi-client echo server

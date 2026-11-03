@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #PhysicalLayer #NetworkTypesUses | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Network types and uses: PAN/LAN/MAN/WAN, internet vs intranet vs extranet,
 client-server vs peer-to-peer (with a loopback demo and the textbook

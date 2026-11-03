@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #DataLinkLayer #SelectiveRepeat | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Selective Repeat ARQ: sender and receiver windows of 2^(m-1), receiver
 buffering, individual ACKs and per-frame timers, a demonstrated failure when

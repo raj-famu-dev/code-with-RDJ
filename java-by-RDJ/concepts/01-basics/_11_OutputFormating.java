@@ -1,3 +1,4 @@
+// Tags: #Java #Basics #OutputFormating | @rdj_369 | Java 21 (JDK 21)
 public class _11_OutputFormating {
     public static void main(String[] args) {
 

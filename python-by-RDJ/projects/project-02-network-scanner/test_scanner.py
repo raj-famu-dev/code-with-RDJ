@@ -1,3 +1,4 @@
+# Tags: #Python #Project #Cybersecurity #PortScanning #Tests #scanner | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Tests for scanner.py. Only 127.0.0.1 servers started here are ever contacted."""
 

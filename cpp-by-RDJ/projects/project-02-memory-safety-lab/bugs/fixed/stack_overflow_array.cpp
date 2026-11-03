@@ -1,3 +1,4 @@
+// Tags: #Cpp #Project #MemorySafety #Sanitizers #stackoverflowarray | @rdj_369 | C++20 (g++ 13)
 // Completed and verified (g++ 13, -std=c++20). Written with Claude (Sonnet 5.5); authorship disclosed.
 //
 // FIX for bugs/stack_overflow_array.cpp. Use std::array and a range-based for loop: the loop cannot

@@ -1,3 +1,4 @@
+// Tags: #Java #Basics #VariablesDataTypes | @rdj_369 | Java 21 (JDK 21)
 public class _2_VariablesAndDataTypes{
 
     static void main() {

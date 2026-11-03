@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #TransportLayer #TcpUdpModernTransport | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """TCP vs UDP comparison and when to use which, head-of-line blocking illustrated by a
 small simulation, reliability rebuilt on top of UDP (real loopback stop-and-wait), and

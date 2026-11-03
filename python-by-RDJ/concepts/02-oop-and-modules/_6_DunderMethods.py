@@ -1,3 +1,4 @@
+# Tags: #Python #OOP #Modules #DunderMethods | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Dunder (magic) methods: __str__/__repr__, __eq__ + __hash__, ordering with
 functools.total_ordering, __len__, __iter__, __getitem__, __add__."""

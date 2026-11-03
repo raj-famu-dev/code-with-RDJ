@@ -1,3 +1,4 @@
+// Tags: #Java #OOP #UnderstaningBasicsOpps | @rdj_369 | Java 21 (JDK 21)
 // ============================================
 // MAIN: everything comes together here
 // ============================================

@@ -1,3 +1,4 @@
+# Tags: #Python #ComputerNetworks #PhysicalLayer #SignalsEncoding | @rdj_369 | Python 3.13
 # Completed and verified (run with Python 3.13). Written with Claude (Sonnet 5.5); authorship disclosed.
 """Signals and encoding: analog vs digital, bandwidth, the Nyquist and Shannon
 capacity formulas with worked numbers, and line coding (NRZ-L, NRZ-I, RZ,
