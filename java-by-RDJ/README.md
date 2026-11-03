@@ -185,6 +185,16 @@ I'm not there yet. But I'm not guessing at how to get there either: I have a pla
 
 — Raj Patel (RDJ), Tallahassee, Florida
 
+## 🔗 Related Labs
+
+| Lab | What it covers |
+|---|---|
+| 🐍 [Python Lab](../python-by-RDJ/README.md) | The language used for the networking demos; its [`04-network-sockets`](../python-by-RDJ/concepts/04-network-sockets) module is the hands-on sockets companion. |
+| ⚙️ [C++ Lab](../cpp-by-RDJ/README.md) | Memory, threads and systems; its [`06-concurrency-and-systems`](../cpp-by-RDJ/concepts/06-concurrency-and-systems) module has loopback sockets in C++. |
+| 🌐 [Computer Network Lab](../computer-network-by-RDJ/README.md) | How the network stack works, protocol by protocol, with runnable simulators. |
+
+---
+
 ---
 
 <div align="center">
@@ -195,7 +205,7 @@ Computer Science undergraduate at **Florida A&M University** · Tallahassee, Flo
 
 <sub>Completed means written, run and explained in a walkthrough. Files from `03` onward were written with Claude (Sonnet 5.5) and say so in their first line; `01`, `02`, `04/_1` and `project-04` are my own work.</sub>
 
-[⬅ Back to the repository](../README.md) · [Python Lab](../python-by-RDJ/README.md)
+[⬅ Back to the repository](../README.md) · [Python Lab](../python-by-RDJ/README.md) · [C++ Lab](../cpp-by-RDJ/README.md) · [Computer Network Lab](../computer-network-by-RDJ/README.md)
 
 **© 2026 Raj Patel (RDJ).** Released under the [MIT License](./LICENSE).
 

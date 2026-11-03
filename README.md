@@ -5,7 +5,7 @@
 <br/>
 
 ![Java](https://img.shields.io/badge/Java-21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.13-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Focus](https://img.shields.io/badge/Focus-AI%20Engineering-7C3AED?style=for-the-badge)
 ![Security](https://img.shields.io/badge/Security-Legal%20Labs%20Only-DC2626?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Building%20in%20Public-0EA5E9?style=for-the-badge)
@@ -40,7 +40,7 @@ I'm **Raj Patel** ("RDJ"; GitHub: `raj-famu-dev`), a Computer Science undergradu
 
 ## 📊 Snapshot
 
-*As of 2026-11-02. Source of truth: the folder READMEs.*
+*As of 2026-11-03. Source of truth: the folder READMEs.*
 
 | | |
 |---|---|
@@ -49,6 +49,7 @@ I'm **Raj Patel** ("RDJ"; GitHub: `raj-famu-dev`), a Computer Science undergradu
 | **Java modules** | 15 planned: **11 completed**, 4 not started |
 | **Python** | 57 files, about 8,600 lines. **11 written by me** (`01-basics`), 46 written with Claude. **5 of 5 modules and 3 of 3 projects completed**, 231 pytest tests passing |
 | **C++** | 72 files, about 8,100 lines, all written with Claude. **6 of 6 modules and 3 of 3 projects completed**, 159 project checks passing, clean under AddressSanitizer and UndefinedBehaviorSanitizer |
+| **Computer Networks** | 70 topics, each a runnable `.py` (about 14,300 lines) plus a `.md` study note (about 11,300 lines), all written with Claude. **7 of 7 modules completed**, all 70 demos run clean with exit 0, including inside a loopback-only network namespace |
 | **Java projects finished** | 1 of 8 planned (`project-04-grade-manager`) |
 | **Deployed projects** | 0. Target: 3 |
 | **Ranked CTF or lab activity** | None yet. No ranking claims until there is a named ranking, a number and a source |
@@ -58,7 +59,7 @@ I'm **Raj Patel** ("RDJ"; GitHub: `raj-famu-dev`), a Computer Science undergradu
 ## 🧭 Tracks
 
 <div align="center">
-<img src="assets/tracks.svg" alt="Five learning tracks: Java active, Python core completed, AI engineering next, security queued, C++ core completed." width="100%"/>
+<img src="assets/tracks.svg" alt="Six learning tracks: Java active, Python core completed, AI engineering next, security queued, C++ core completed, computer networks core completed." width="100%"/>
 </div>
 
 | Track | Folder | State |
@@ -68,6 +69,7 @@ I'm **Raj Patel** ("RDJ"; GitHub: `raj-famu-dev`), a Computer Science undergradu
 | 🤖 **AI engineering** | [`ai-engineering-by-RDJ`](./ai-engineering-by-RDJ) | **Next.** Placeholder folder. Starts after Python and FastAPI |
 | 🛡️ **Security** | [`cybersecurity-by-RDJ`](./cybersecurity-by-RDJ) | **Queued.** Placeholder folder. Own systems and legal labs only |
 | ⚙️ **C++ systems** | [`cpp-by-RDJ`](./cpp-by-RDJ) | **Core completed.** 6 modules and 3 projects (data structures, memory-safety lab, thread pool), sanitizer-checked |
+| 🌐 **Computer networks** | [`computer-network-by-RDJ`](./computer-network-by-RDJ) | **Core completed.** 7 modules and 70 topics: the six chapters of a full CN course (introduction, data link, network, transport, session and presentation, application) plus wireless, security and tools. Each topic has a runnable simulator and a detailed study note. No projects yet |
 
 ---
 
@@ -106,9 +108,9 @@ A green checkmark is not free. A topic turns **completed** (green) only when the
 I use AI as a tutor and to help write code, and I say so on the page instead of hiding it.
 
 - **Written by me:** Java `01-basics`, `02-oop`, `04-exceptions/_1`, `project-04-grade-manager`, and Python `01-basics`.
-- **Written with Claude (Sonnet 5.5), then run and verified:** Java concept folders `03` to `09`, `13` and `14` (80 files), Python `02` to `05` the three Python projects, and the whole C++ lab (6 modules, 3 projects). Each file starts with a header line saying so, and each walkthrough opens with a note.
+- **Written with Claude (Sonnet 5.5), then run and verified:** Java concept folders `03` to `09`, `13` and `14` (80 files), Python `02` to `05` the three Python projects, the whole C++ lab (6 modules, 3 projects), and the whole Computer Network lab (7 modules, 70 topics). Each file starts with a header line saying so, and each walkthrough opens with a note.
 - **What "completed" means:** written, run and explained in a walkthrough. It describes the artifact. It does not claim I could reproduce it from memory, and nothing here claims a skill level or a ranking.
-- **Checkable, not claimed:** the Java programs are deterministic and run on JDK 21; the Python files run on Python 3.13 and the projects pass their pytest suites, and the C++ builds clean under `-Wall -Wextra -Wpedantic` and the sanitizers, so you can reproduce all of it yourself.
+- **Checkable, not claimed:** the Java programs are deterministic and run on JDK 21; the Python files run on Python 3.13 and the projects pass their pytest suites, the C++ builds clean under `-Wall -Wextra -Wpedantic` and the sanitizers, and the 70 networking demos run on Python 3.13 with only loopback sockets, so you can reproduce all of it yourself.
 
 ---
 
@@ -120,7 +122,8 @@ A 60-second tour, in the order that is most useful:
 2. **My own work:** [`project-04-grade-manager`](./java-by-RDJ/projects/project-04-grade-manager), [`concepts/02-oop`](./java-by-RDJ/concepts/02-oop), [`python-by-RDJ/concepts/01-basics`](./python-by-RDJ/concepts/01-basics).
 3. **Python and security tooling:** [`python-by-RDJ`](./python-by-RDJ), especially [`project-02-network-scanner`](./python-by-RDJ/projects/project-02-network-scanner) (refuses public hosts, tested) and [`project-03-perceptron-from-scratch`](./python-by-RDJ/projects/project-03-perceptron-from-scratch).
 4. **Systems fluency:** [`cpp-by-RDJ`](./cpp-by-RDJ), especially [`project-02-memory-safety-lab`](./cpp-by-RDJ/projects/project-02-memory-safety-lab) (toy bugs caught by sanitizers, then fixed) and [`project-03-thread-pool`](./cpp-by-RDJ/projects/project-03-thread-pool).
-5. **How I think about correctness:** [`14-dsa-in-java`](./java-by-RDJ/concepts/14-dsa-in-java) builds each structure without the JDK collections, then checks it against the JDK class on thousands of seeded random operations.
+5. **Networking fundamentals:** [`computer-network-by-RDJ`](./computer-network-by-RDJ), especially [`03-network-layer`](./computer-network-by-RDJ/concepts/03-network-layer) (subnetting, routing and ICMP simulators) and [`04-transport-layer`](./computer-network-by-RDJ/concepts/04-transport-layer) (TCP state machine, congestion control, sockets on loopback).
+6. **How I think about correctness:** [`14-dsa-in-java`](./java-by-RDJ/concepts/14-dsa-in-java) builds each structure without the JDK collections, then checks it against the JDK class on thousands of seeded random operations.
 
 **Looking for:** AI engineering or software engineering internships and junior roles. **Based in:** Tallahassee, Florida. **Contact:** through my GitHub profile, [`raj-famu-dev`](https://github.com/raj-famu-dev).
 

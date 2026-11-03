@@ -23,7 +23,7 @@
 [Why This Matters](#-why-this-matters) •
 [How I Work](#-how-i-work)
 
-[⬅ Back to the repository](../README.md) · [Java Mastery Lab](../java-by-RDJ/README.md)
+[⬅ Back to the repository](../README.md) · [Java Mastery Lab](../java-by-RDJ/README.md) · [C++ Lab](../cpp-by-RDJ/README.md) · [Computer Network Lab](../computer-network-by-RDJ/README.md)
 
 </div>
 
@@ -139,6 +139,16 @@ Instead of hiding behind high-level libraries, I focus on understanding how thin
 4. Document the *why* behind every function and module in a dedicated markdown file.
 5. Push daily, small, verifiable commits directly to GitHub.
 
+## 🔗 Related Labs
+
+| Lab | What it covers |
+|---|---|
+| ☕ [Java Mastery Lab](../java-by-RDJ/README.md) | OOP, collections, concurrency, data structures. The language foundation. |
+| ⚙️ [C++ Lab](../cpp-by-RDJ/README.md) | Memory, threads and systems; its [`06-concurrency-and-systems`](../cpp-by-RDJ/concepts/06-concurrency-and-systems) module has loopback sockets in C++. |
+| 🌐 [Computer Network Lab](../computer-network-by-RDJ/README.md) | How the network stack works, protocol by protocol, with runnable simulators. |
+
+---
+
 ---
 
 <div align="center">
@@ -151,7 +161,7 @@ This is my personal learning lab and portfolio. I build it, I maintain it, and I
 
 <sub>Completed means written, run and explained in a walkthrough. Modules 02 to 05 and the projects were written with Claude (Sonnet 5.5) and say so in their first line; 01-basics is my own work.</sub>
 
-[⬅ Back to the repository](../README.md) · [Java Mastery Lab](../java-by-RDJ/README.md)
+[⬅ Back to the repository](../README.md) · [Java Mastery Lab](../java-by-RDJ/README.md) · [C++ Lab](../cpp-by-RDJ/README.md) · [Computer Network Lab](../computer-network-by-RDJ/README.md)
 
 **© 2026 Raj Patel (RDJ).** Released under the [MIT License](../LICENSE).
 

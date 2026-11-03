@@ -21,7 +21,7 @@
 [Run It Yourself](#-run-it-yourself) •
 [Progress Log](#-progress-log)
 
-[⬅ Back to the repository](../README.md) · [Java Mastery Lab](../java-by-RDJ/README.md) · [Python Lab](../python-by-RDJ/README.md)
+[⬅ Back to the repository](../README.md) · [Java Mastery Lab](../java-by-RDJ/README.md) · [Python Lab](../python-by-RDJ/README.md) · [Computer Network Lab](../computer-network-by-RDJ/README.md)
 
 </div>
 
@@ -111,6 +111,16 @@ make sanitize
 
 *This log is updated after every session to maintain an honest, public commit trail.*
 
+## 🔗 Related Labs
+
+| Lab | What it covers |
+|---|---|
+| ☕ [Java Mastery Lab](../java-by-RDJ/README.md) | OOP, collections, concurrency, data structures. The language foundation. |
+| 🐍 [Python Lab](../python-by-RDJ/README.md) | The language used for the networking demos; its [`04-network-sockets`](../python-by-RDJ/concepts/04-network-sockets) module is the hands-on sockets companion. |
+| 🌐 [Computer Network Lab](../computer-network-by-RDJ/README.md) | How the network stack works, protocol by protocol, with runnable simulators. |
+
+---
+
 ---
 
 <div align="center">
@@ -123,7 +133,7 @@ This is my personal learning lab and portfolio. I build it, I maintain it, and I
 
 <sub>Completed means written, run and explained in a walkthrough. Every file in this lab was written with Claude (Sonnet 5.5) and says so in its first line.</sub>
 
-[⬅ Back to the repository](../README.md) · [Java Mastery Lab](../java-by-RDJ/README.md) · [Python Lab](../python-by-RDJ/README.md)
+[⬅ Back to the repository](../README.md) · [Java Mastery Lab](../java-by-RDJ/README.md) · [Python Lab](../python-by-RDJ/README.md) · [Computer Network Lab](../computer-network-by-RDJ/README.md)
 
 **© 2026 Raj Patel (RDJ).** Released under the [MIT License](../LICENSE).
 
