@@ -17,6 +17,7 @@
 [The Goal](#-the-goal) •
 [What a Reviewer Can Verify](#-what-a-reviewer-can-verify) •
 [Progress](#-progress) •
+[Notes](./notes.md) •
 [Structure](#-structure) •
 [Run It Yourself](#-run-it-yourself) •
 [Progress Log](#-progress-log) •
@@ -72,6 +73,7 @@ Python is the core bridge connecting **AI Engineering** and **Cybersecurity**. M
 
 - **[`concepts/`](./concepts)**: isolated practice modules, one concept per file, each with a runnable `.py` and a matching `.md` explaining it line by line.
 - **[`projects/`](./projects)**: complete programs with tests that combine several concepts.
+- **[`notes.md`](./notes.md)**: consolidated study notes covering every completed module and topic with detailed explanations.
 
 | Folder | Focus | Status |
 |---|---|:---:|
