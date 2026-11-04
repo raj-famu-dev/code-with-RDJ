@@ -147,7 +147,7 @@ Swap the file name for any other `_N_Name.cpp` to run that topic. Add `-fsanitiz
 
 ### 👨‍💻 Built and owned by Raj Patel (RDJ)
 
-Computer Science undergraduate at **Florida A&M University** · Tallahassee, Florida · GitHub [`raj-famu-dev`](https://github.com/raj-famu-dev)
+Computer Science undergraduate at **Florida A&M University** · Tallahassee, Florida · GitHub [`raj-famu-dev`](https://github.com/raj-famu-dev) · Instagram [`@rdj_369`](https://instagram.com/rdj_369)
 
 This is my personal learning lab and portfolio. I build it, I maintain it, and I am accountable for what it claims.
 

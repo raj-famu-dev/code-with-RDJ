@@ -203,7 +203,7 @@ I'm not there yet. But I'm not guessing at how to get there either: I have a pla
 
 ### 👨‍💻 Built and owned by Raj Patel (RDJ)
 
-Computer Science undergraduate at **Florida A&M University** · Tallahassee, Florida · GitHub [`raj-famu-dev`](https://github.com/raj-famu-dev)
+Computer Science undergraduate at **Florida A&M University** · Tallahassee, Florida · GitHub [`raj-famu-dev`](https://github.com/raj-famu-dev) · Instagram [`@rdj_369`](https://instagram.com/rdj_369)
 
 <sub>Completed means written, run and explained in a walkthrough. Files from `03` onward were written with Claude (Sonnet 5.5) and say so in their first line; `01`, `02`, `04/_1` and `project-04` are my own work.</sub>
 

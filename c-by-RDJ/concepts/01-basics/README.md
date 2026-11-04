@@ -57,3 +57,13 @@ gcc -std=c17 -Wall -Wextra -Wpedantic -O0 -g -o demo _N_Name.c && ./demo
 ## 📝 Status Note
 
 Complete — 9 topics written and verified: each `.c` compiles with zero warnings (`-std=c17 -Wall -Wextra -Wpedantic`), runs with exit 0, and has a paired `.md` walkthrough. Module 02 and 05 files also verified clean under AddressSanitizer + UndefinedBehaviorSanitizer.
+
+---
+
+<div align="center">
+
+<sub>Built and owned by [Raj Patel (RDJ)](https://github.com/raj-famu-dev) — Computer Science @ **Florida A&M University** · Tallahassee, Florida · [Instagram @rdj_369](https://instagram.com/rdj_369)</sub>
+
+[⬅ c-by-RDJ](../../README.md) · [Repository home](../../../README.md)
+
+</div>

@@ -67,3 +67,13 @@ It is deliberately the first project: it forces modules 01–04 together (types,
 ## 📝 Status Note
 
 Starter only — README and definition of done written; no code. Depends on modules 01–04. Authorship will be disclosed per file when written.
+
+---
+
+<div align="center">
+
+<sub>Built and owned by [Raj Patel (RDJ)](https://github.com/raj-famu-dev) — Computer Science @ **Florida A&M University** · Tallahassee, Florida · [Instagram @rdj_369](https://instagram.com/rdj_369)</sub>
+
+[⬅ c-by-RDJ](../../README.md) · [Repository home](../../../README.md)
+
+</div>

@@ -58,3 +58,13 @@ gcc -std=c17 -Wall -Wextra -Wpedantic -g -fsanitize=address,undefined -o demo _N
 ## 📝 Status Note
 
 Complete — 7 topics written and verified: dynamic array (measured 1.31 copies/push, matching the JDK's ArrayList), linked list, stack and ring-buffer queue, hash table (measured chain walks), sorting (qsort + quicksort + mergesort, verified identical), searching, and the CHECK-based test harness (105 checks, 0 failed). ASan/UBSan clean.
+
+---
+
+<div align="center">
+
+<sub>Built and owned by [Raj Patel (RDJ)](https://github.com/raj-famu-dev) — Computer Science @ **Florida A&M University** · Tallahassee, Florida · [Instagram @rdj_369](https://instagram.com/rdj_369)</sub>
+
+[⬅ c-by-RDJ](../../README.md) · [Repository home](../../../README.md)
+
+</div>

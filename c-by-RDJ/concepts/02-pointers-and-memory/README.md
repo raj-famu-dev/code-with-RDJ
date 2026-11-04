@@ -59,3 +59,13 @@ gcc -std=c17 -Wall -Wextra -Wpedantic -g -fsanitize=address,undefined -o demo _N
 ## 📝 Status Note
 
 Complete — 8 topics written and verified: every file compiles warning-free, runs with exit 0, and is clean under ASan + UBSan (including the deliberate-bug `--trigger` build). The direct foundation of the C++ lab's memory module.
+
+---
+
+<div align="center">
+
+<sub>Built and owned by [Raj Patel (RDJ)](https://github.com/raj-famu-dev) — Computer Science @ **Florida A&M University** · Tallahassee, Florida · [Instagram @rdj_369](https://instagram.com/rdj_369)</sub>
+
+[⬅ c-by-RDJ](../../README.md) · [Repository home](../../../README.md)
+
+</div>

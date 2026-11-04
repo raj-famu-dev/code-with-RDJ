@@ -57,3 +57,13 @@ make && ./demo        # topic 7 onward
 ## 📝 Status Note
 
 Complete — 8 topics written and verified. The Makefile in topic 7 mirrors `cpp-by-RDJ`'s projects (`make -f _7_Makefile`, `test`, `sanitize`, `clean`) so the two labs feel like one system.
+
+---
+
+<div align="center">
+
+<sub>Built and owned by [Raj Patel (RDJ)](https://github.com/raj-famu-dev) — Computer Science @ **Florida A&M University** · Tallahassee, Florida · [Instagram @rdj_369](https://instagram.com/rdj_369)</sub>
+
+[⬅ c-by-RDJ](../../README.md) · [Repository home](../../../README.md)
+
+</div>
