@@ -2,7 +2,7 @@
 
 # Module 05 — Data Structures in C
 
-![Status](https://img.shields.io/badge/Status-Not%20Started-F59E0B?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-22C55E?style=for-the-badge)
 ![Topics](https://img.shields.io/badge/Topics-7-7C3AED?style=for-the-badge)
 ![C](https://img.shields.io/badge/C-C17-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 ![Author](https://img.shields.io/badge/By-Raj%20Patel%20(RDJ)-22D3EE?style=for-the-badge)
@@ -34,13 +34,13 @@
 
 | # | File | Concept | Status |
 |---|------|---------|:---:|
-| 1 | `_1_DynamicArray.c` | `realloc` growth, amortized O(1) append, measured copies per add | ⬜ |
-| 2 | `_2_LinkedList.c` | Singly then doubly linked, O(1) insert/remove with the node | ⬜ |
-| 3 | `_3_StackAndQueue.c` | On the linked list; on the dynamic array; overflow by design | ⬜ |
-| 4 | `_4_HashTable.c` | Chaining, hashing strings (djb2/FNV), load factor and resize | ⬜ |
-| 5 | `_5_Sorting.c` | `qsort` with comparators, plus hand-rolled quicksort and mergesort | ⬜ |
-| 6 | `_6_Searching.c` | `bsearch`, hand-rolled binary search, why sorted input is the contract | ⬜ |
-| 7 | `_7_TestingInC.c` | `assert`, a tiny harness in the repo's style (`N checks, 0 failed`), valgrind vs sanitizers | ⬜ |
+| 1 | `_1_DynamicArray.c` | `realloc` growth, amortized O(1) append, measured copies per add | ✅ |
+| 2 | `_2_LinkedList.c` | Singly then doubly linked, O(1) insert/remove with the node | ✅ |
+| 3 | `_3_StackAndQueue.c` | On the linked list; on the dynamic array; overflow by design | ✅ |
+| 4 | `_4_HashTable.c` | Chaining, hashing strings (djb2/FNV), load factor and resize | ✅ |
+| 5 | `_5_Sorting.c` | `qsort` with comparators, plus hand-rolled quicksort and mergesort | ✅ |
+| 6 | `_6_Searching.c` | `bsearch`, hand-rolled binary search, why sorted input is the contract | ✅ |
+| 7 | `_7_TestingInC.c` | `assert`, a tiny harness in the repo's style (`N checks, 0 failed`), valgrind vs sanitizers | ✅ |
 
 ---
 
@@ -57,4 +57,4 @@ gcc -std=c17 -Wall -Wextra -Wpedantic -g -fsanitize=address,undefined -o demo _N
 
 ## 📝 Status Note
 
-Scaffold only — designed, not written. Completing this module unlocks `project-02-hash-table-c`, which is its structures, hardened and tested as a real deliverable.
+Complete — 7 topics written and verified: dynamic array (measured 1.31 copies/push, matching the JDK's ArrayList), linked list, stack and ring-buffer queue, hash table (measured chain walks), sorting (qsort + quicksort + mergesort, verified identical), searching, and the CHECK-based test harness (105 checks, 0 failed). ASan/UBSan clean.

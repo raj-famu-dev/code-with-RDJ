@@ -2,7 +2,7 @@
 
 # Module 02 — Pointers & Memory
 
-![Status](https://img.shields.io/badge/Status-Not%20Started-F59E0B?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-22C55E?style=for-the-badge)
 ![Topics](https://img.shields.io/badge/Topics-8-7C3AED?style=for-the-badge)
 ![C](https://img.shields.io/badge/C-C17-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 ![Author](https://img.shields.io/badge/By-Raj%20Patel%20(RDJ)-22D3EE?style=for-the-badge)
@@ -34,14 +34,14 @@
 
 | # | File | Concept | Status |
 |---|------|---------|:---:|
-| 1 | `_1_PointersAndAddresses.c` | `&` and `*`, `NULL`, pointer size, multiple indirection | ⬜ |
-| 2 | `_2_PointerArithmetic.c` | Element-sized steps, one-past-the-end legality, `ptrdiff_t` | ⬜ |
-| 3 | `_3_ArraysAndPointers.c` | Array-to-pointer decay, `a[i]` as `*(a+i)`, 2-D arrays vs pointer-to-pointer | ⬜ |
-| 4 | `_4_StringsAsCharPointers.c` | String literals (read-only!) vs `char` arrays, ownership of strings | ⬜ |
-| 5 | `_5_StackVsHeap.c` | `malloc`/`calloc`/`realloc`/`free`, automatic vs dynamic lifetime | ⬜ |
-| 6 | `_6_MemoryBugsAndSanitizers.c` | The classic bugs — use-after-free, heap overflow, leak, double-free — each caught by ASan/UBSan, then fixed | ⬜ |
-| 7 | `_7_ConstAndVoidPointers.c` | `const` correctness in C, `void*` casting rules, why C has no `new` | ⬜ |
-| 8 | `_8_MemoryOwnershipPatterns.c` | Who frees: cleanup paths, the `goto cleanup` idiom, documenting ownership in APIs | ⬜ |
+| 1 | `_1_PointersAndAddresses.c` | `&` and `*`, `NULL`, pointer size, multiple indirection | ✅ |
+| 2 | `_2_PointerArithmetic.c` | Element-sized steps, one-past-the-end legality, `ptrdiff_t` | ✅ |
+| 3 | `_3_ArraysAndPointers.c` | Array-to-pointer decay, `a[i]` as `*(a+i)`, 2-D arrays vs pointer-to-pointer | ✅ |
+| 4 | `_4_StringsAsCharPointers.c` | String literals (read-only!) vs `char` arrays, ownership of strings | ✅ |
+| 5 | `_5_StackVsHeap.c` | `malloc`/`calloc`/`realloc`/`free`, automatic vs dynamic lifetime | ✅ |
+| 6 | `_6_MemoryBugsAndSanitizers.c` | The classic bugs — use-after-free, heap overflow, leak, double-free — each caught by ASan/UBSan, then fixed | ✅ |
+| 7 | `_7_ConstAndVoidPointers.c` | `const` correctness in C, `void*` casting rules, why C has no `new` | ✅ |
+| 8 | `_8_MemoryOwnershipPatterns.c` | Who frees: cleanup paths, the `goto cleanup` idiom, documenting ownership in APIs | ✅ |
 
 ---
 
@@ -58,4 +58,4 @@ gcc -std=c17 -Wall -Wextra -Wpedantic -g -fsanitize=address,undefined -o demo _N
 
 ## 📝 Status Note
 
-Scaffold only — designed, not written. This module is the prerequisite for `project-02-hash-table-c` and the direct foundation of the C++ lab's memory module.
+Complete — 8 topics written and verified: every file compiles warning-free, runs with exit 0, and is clean under ASan + UBSan (including the deliberate-bug `--trigger` build). The direct foundation of the C++ lab's memory module.

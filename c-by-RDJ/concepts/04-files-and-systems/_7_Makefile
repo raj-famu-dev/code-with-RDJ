@@ -1,0 +1,27 @@
+# _7_Makefile — the smallest honest build system.
+# Run:  make -f _7_Makefile
+#
+# A Makefile is RULES:  TARGET: DEPENDENCIES
+#                      	<TAB>recipe
+# make rebuilds a target ONLY if a dependency is newer than the target.
+# The TAB before the recipe is REQUIRED (not spaces — the classic error).
+
+CC      = gcc
+CFLAGS  = -std=c17 -Wall -Wextra -Wpedantic -O0 -g
+TARGET  = _7_demo
+
+all: $(TARGET)
+
+$(TARGET): _7_MakeAndBuilds.c
+	$(CC) $(CFLAGS) -o $(TARGET) _7_MakeAndBuilds.c
+
+# Phony targets: not files — always-run commands.
+test: $(TARGET)
+	./$(TARGET)
+
+sanitize: _7_MakeAndBuilds.c
+	$(CC) -std=c17 -Wall -Wextra -Wpedantic -g -fsanitize=address,undefined -o $(TARGET)_s _7_MakeAndBuilds.c
+	./$(TARGET)_s
+
+clean:
+	rm -f $(TARGET) $(TARGET)_s

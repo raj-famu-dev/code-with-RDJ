@@ -2,7 +2,7 @@
 
 # Module 03 — Structs & Modularity
 
-![Status](https://img.shields.io/badge/Status-Not%20Started-F59E0B?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-22C55E?style=for-the-badge)
 ![Topics](https://img.shields.io/badge/Topics-8-7C3AED?style=for-the-badge)
 ![C](https://img.shields.io/badge/C-C17-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 ![Author](https://img.shields.io/badge/By-Raj%20Patel%20(RDJ)-22D3EE?style=for-the-badge)
@@ -34,14 +34,14 @@
 
 | # | File | Concept | Status |
 |---|------|---------|:---:|
-| 1 | `_1_Structs.c` | Definition, designated initializers, assignment semantics | ⬜ |
-| 2 | `_2_Typedef.c` | Naming types, opaque structs (the C "private class") | ⬜ |
-| 3 | `_3_NestedAndArrayOfStructs.c` | Composition in C: structs in structs, arrays of records | ⬜ |
-| 4 | `_4_PassingStructs.c` | By value (copy) vs by pointer, `const struct *`, returning pointers safely | ⬜ |
-| 5 | `_5_Unions.c` | Overlapping storage, type punning and its (UB) edges, tagged unions | ⬜ |
-| 6 | `_6_EnumsAndBitfields.c` | Enums as ints, bitfields for packed flags, `sizeof` surprises | ⬜ |
-| 7 | `_7_FunctionPointers.c` | Callbacks, `qsort` comparators, dispatch tables — C's polymorphism | ⬜ |
-| 8 | `_8_HeadersAndLinking.c` | Include guards, `extern`, `static` linkage, multi-file builds, the linker's job | ⬜ |
+| 1 | `_1_Structs.c` | Definition, designated initializers, assignment semantics | ✅ |
+| 2 | `_2_Typedef.c` | Naming types, opaque structs (the C "private class") | ✅ |
+| 3 | `_3_NestedAndArrayOfStructs.c` | Composition in C: structs in structs, arrays of records | ✅ |
+| 4 | `_4_PassingStructs.c` | By value (copy) vs by pointer, `const struct *`, returning pointers safely | ✅ |
+| 5 | `_5_Unions.c` | Overlapping storage, type punning and its (UB) edges, tagged unions | ✅ |
+| 6 | `_6_EnumsAndBitfields.c` | Enums as ints, bitfields for packed flags, `sizeof` surprises | ✅ |
+| 7 | `_7_FunctionPointers.c` | Callbacks, `qsort` comparators, dispatch tables — C's polymorphism | ✅ |
+| 8 | `_8_HeadersAndLinking.c` | Include guards, `extern`, `static` linkage, multi-file builds, the linker's job | ✅ |
 
 ---
 
@@ -58,4 +58,4 @@ gcc -std=c17 -Wall -Wextra -Wpedantic -O0 -g -o demo module.c main.c && ./demo
 
 ## 📝 Status Note
 
-Scaffold only — designed, not written. Function pointers here are the direct prerequisite for `qsort` usage in module 05 and the comparator-based tests in both projects.
+Complete — 8 topics written and verified, including the multi-file topic 8 (`_8_counter.h` / `_8_counter.c` / `_8_HeadersAndLinking.c`), which builds with both files on the link line.

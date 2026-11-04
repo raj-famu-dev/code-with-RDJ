@@ -8,7 +8,7 @@
 ![Compiler](https://img.shields.io/badge/Compiler-GCC%2013-77AA99?style=for-the-badge)
 ![Focus](https://img.shields.io/badge/Focus-Systems%20Foundations-7C3AED?style=for-the-badge)
 ![Security](https://img.shields.io/badge/Security-Legal%20Labs%20Only-DC2626?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Scaffold%20(Design%20Complete)-F59E0B?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Concepts%20Complete-22C55E?style=for-the-badge)
 ![Author](https://img.shields.io/badge/By-Raj%20Patel%20(RDJ)-22D3EE?style=for-the-badge)
 ![University](https://img.shields.io/badge/Florida%20A%26M%20University-Computer%20Science-F58025?style=for-the-badge)
 ![Location](https://img.shields.io/badge/Tallahassee-FL-E8618C?style=for-the-badge)
@@ -39,7 +39,7 @@ It exists for one reason — everything else in this repo sits on top of C's wor
 - The C++ lab already teaches RAII and smart pointers; this lab is the layer *underneath* — where `delete` doesn't exist and `free()` is a discipline, not a keyword.
 - Operating systems, kernels, and the runtimes of Java, Python and C themselves are written in C. Reading C fluently is reading the foundations.
 
-**Status: scaffold.** The curriculum is fully designed — 5 modules, 40 topics, 2 project starters, every module folder with its README and topic list — but **no code is written yet**. Each file will be added with the same conventions as the rest of this repo (paired source + walkthrough, disclosure header, tag header, sanitizer-clean builds).
+**Status: concepts complete.** All 5 modules and 40 topics are written and verified — every `.c` compiles with zero warnings under `-std=c17 -Wall -Wextra -Wpedantic`, runs with exit 0, and each has a paired `.md` walkthrough in the `java-by-RDJ` style (Concept → Code → Line-by-Line Breakdown). Module 02 and 05 files are additionally clean under AddressSanitizer + UndefinedBehaviorSanitizer. The two projects remain starters.
 
 ---
 
@@ -58,18 +58,18 @@ It exists for one reason — everything else in this repo sits on top of C's wor
 
 | Module | Topics | Status |
 |---|:-:|:---:|
-| [`concepts/01-basics`](./concepts/01-basics) | 9 | ⬜ Not started |
-| [`concepts/02-pointers-and-memory`](./concepts/02-pointers-and-memory) | 8 | ⬜ Not started |
-| [`concepts/03-structs-and-modularity`](./concepts/03-structs-and-modularity) | 8 | ⬜ Not started |
-| [`concepts/04-files-and-systems`](./concepts/04-files-and-systems) | 8 | ⬜ Not started |
-| [`concepts/05-data-structures-in-c`](./concepts/05-data-structures-in-c) | 7 | ⬜ Not started |
+| [`concepts/01-basics`](./concepts/01-basics) | 9 | ✅ Complete |
+| [`concepts/02-pointers-and-memory`](./concepts/02-pointers-and-memory) | 8 | ✅ Complete |
+| [`concepts/03-structs-and-modularity`](./concepts/03-structs-and-modularity) | 8 | ✅ Complete |
+| [`concepts/04-files-and-systems`](./concepts/04-files-and-systems) | 8 | ✅ Complete |
+| [`concepts/05-data-structures-in-c`](./concepts/05-data-structures-in-c) | 7 | ✅ Complete |
 
 | Project | Status |
 |---|:---:|
 | [`projects/project-01-grade-manager-c`](./projects/project-01-grade-manager-c) | ⬜ Not started |
 | [`projects/project-02-hash-table-c`](./projects/project-02-hash-table-c) | ⬜ Not started |
 
-**Totals: 0 of 40 topics written · 0 of 2 projects complete.**
+**Totals: 40 of 40 topics written and verified · 0 of 2 projects complete (starters).**
 
 ---
 
@@ -128,3 +128,4 @@ gcc -std=c17 -Wall -Wextra -Wpedantic -g -fsanitize=address,undefined -o demo _N
 | Date | Entry |
 |---|---|
 | 2026-11-03 | Scaffold created: 5 modules and 2 project starters fully designed (READMEs and topic lists), code not started |
+| 2026-11-03 | All 40 concept topics written, compiled warning-free and run-verified (exit 0); Module 02 and 05 clean under ASan + UBSan |

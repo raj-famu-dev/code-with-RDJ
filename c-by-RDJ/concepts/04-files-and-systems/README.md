@@ -2,7 +2,7 @@
 
 # Module 04 — Files & Systems
 
-![Status](https://img.shields.io/badge/Status-Not%20Started-F59E0B?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-22C55E?style=for-the-badge)
 ![Topics](https://img.shields.io/badge/Topics-8-7C3AED?style=for-the-badge)
 ![C](https://img.shields.io/badge/C-C17-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 ![Author](https://img.shields.io/badge/By-Raj%20Patel%20(RDJ)-22D3EE?style=for-the-badge)
@@ -34,14 +34,14 @@
 
 | # | File | Concept | Status |
 |---|------|---------|:---:|
-| 1 | `_1_FileOpenAndClose.c` | `fopen`/`fclose`, modes (`r`, `w`, `a`, `b`), checking for failure | ⬜ |
-| 2 | `_2_TextIO.c` | `fgets` + `sscanf` (the safe pattern), `fprintf`, buffering | ⬜ |
-| 3 | `_3_BinaryIO.c` | `fread`/`fwrite`, struct packing, endianness, magic headers | ⬜ |
-| 4 | `_4_ErrnoAndExitCodes.c` | `errno`, `perror`/`strerror`, exit codes as the CLI contract | ⬜ |
-| 5 | `_5_CommandLineArguments.c` | `argc`/`argv`, option parsing, stdin/stdout as files | ⬜ |
-| 6 | `_6_PreprocessorAndMacros.c` | `#define` pitfalls, `#ifdef`, include guards, `static inline` in headers | ⬜ |
-| 7 | `_7_MakeAndBuilds.c` | A real Makefile: targets, dependencies, `make clean` (matching `cpp-by-RDJ` projects) | ⬜ |
-| 8 | `_8_FlexibleArrayMembers.c` | The `struct { size_t n; T data[]; }` pattern for malloc'd records | ⬜ |
+| 1 | `_1_FileOpenAndClose.c` | `fopen`/`fclose`, modes (`r`, `w`, `a`, `b`), checking for failure | ✅ |
+| 2 | `_2_TextIO.c` | `fgets` + `sscanf` (the safe pattern), `fprintf`, buffering | ✅ |
+| 3 | `_3_BinaryIO.c` | `fread`/`fwrite`, struct packing, endianness, magic headers | ✅ |
+| 4 | `_4_ErrnoAndExitCodes.c` | `errno`, `perror`/`strerror`, exit codes as the CLI contract | ✅ |
+| 5 | `_5_CommandLineArguments.c` | `argc`/`argv`, option parsing, stdin/stdout as files | ✅ |
+| 6 | `_6_PreprocessorAndMacros.c` | `#define` pitfalls, `#ifdef`, include guards, `static inline` in headers | ✅ |
+| 7 | `_7_MakeAndBuilds.c` | A real Makefile: targets, dependencies, `make clean` (matching `cpp-by-RDJ` projects) | ✅ |
+| 8 | `_8_FlexibleArrayMembers.c` | The `struct { size_t n; T data[]; }` pattern for malloc'd records | ✅ |
 
 ---
 
@@ -56,4 +56,4 @@ make && ./demo        # topic 7 onward
 
 ## 📝 Status Note
 
-Scaffold only — designed, not written. The Makefile conventions here mirror `cpp-by-RDJ`'s projects (`make`, `make test`, `make sanitize`) so the two labs feel like one system.
+Complete — 8 topics written and verified. The Makefile in topic 7 mirrors `cpp-by-RDJ`'s projects (`make -f _7_Makefile`, `test`, `sanitize`, `clean`) so the two labs feel like one system.
