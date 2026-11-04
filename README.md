@@ -50,7 +50,7 @@ I'm **Raj Patel** ("RDJ"; GitHub: `raj-famu-dev`), a Computer Science undergradu
 | **Java** | 108 files, about 17,500 lines. **28 written by me**, 80 written with Claude (each says so in its first line) |
 | **Java modules** | 15 planned: **11 completed**, 4 not started |
 | **Python** | 57 files, about 8,600 lines. **11 written by me** (`01-basics`), 46 written with Claude. **5 of 5 modules and 3 of 3 projects completed**, 231 pytest tests passing |
-| **C** | Initial C17 learning lab scaffold: 5 modules, paired source examples and walkthroughs, plus 2 project starters. Local compile/run verification pending |
+| **C** | C17 learning lab scaffold: 5 modules and 40 topics designed with paired source examples and walkthroughs, plus 2 project starters. Module and project READMEs in place; code pending local verification |
 | **C++** | 72 files, about 8,100 lines, all written with Claude. **6 of 6 modules and 3 of 3 projects completed**, 159 project checks passing, clean under AddressSanitizer and UndefinedBehaviorSanitizer |
 | **Computer Networks** | 70 topics, each a runnable `.py` (about 14,300 lines) plus a `.md` study note (about 11,300 lines), all written with Claude. **7 of 7 modules completed**, all 70 demos run clean with exit 0, including inside a loopback-only network namespace |
 | **Java projects finished** | 1 of 8 planned (`project-04-grade-manager`) |
@@ -71,7 +71,7 @@ I'm **Raj Patel** ("RDJ"; GitHub: `raj-famu-dev`), a Computer Science undergradu
 | 🐍 **Python** | [`python-by-RDJ`](./python-by-RDJ) | **Core completed.** 5 modules (OOP, file I/O and JSON, sockets, NumPy/Pandas) and 3 projects, all run and tested. FastAPI is next and not started |
 | 🤖 **AI engineering** | [`ai-engineering-by-RDJ`](./ai-engineering-by-RDJ) | **Next.** Placeholder folder. Starts after Python and FastAPI |
 | 🛡️ **Security** | [`cybersecurity-by-RDJ`](./cybersecurity-by-RDJ) | **Queued.** Placeholder folder. Own systems and legal labs only |
-| 🧩 **C programming** | [`c-by-RDJ`](./c-by-RDJ) | **Initial scaffold.** C17 fundamentals, arrays, pointers, memory, data structures and file I/O; local verification pending |
+| 🧩 **C programming** | [`c-by-RDJ`](./c-by-RDJ) | **Scaffold, design complete.** 5 modules and 40 topics designed (basics, pointers and memory, structs and modularity, files and systems, data structures), plus 2 project starters (grade manager port, hash table). Code pending |
 | ⚙️ **C++ systems** | [`cpp-by-RDJ`](./cpp-by-RDJ) | **Core completed.** 6 modules and 3 projects (data structures, memory-safety lab, thread pool), sanitizer-checked |
 | 🌐 **Computer networks** | [`computer-network-by-RDJ`](./computer-network-by-RDJ) | **Core completed.** 7 modules and 70 topics: the six chapters of a full CN course (introduction, data link, network, transport, session and presentation, application) plus wireless, security and tools. Each topic has a runnable simulator and a detailed study note. No projects yet |
 
@@ -125,7 +125,7 @@ A 60-second tour, in the order that is most useful:
 1. **[`java-by-RDJ`](./java-by-RDJ)**: module map, honest status, and measured results from the data-structure programs.
 2. **My own work:** [`project-04-grade-manager`](./java-by-RDJ/projects/project-04-grade-manager), [`concepts/02-oop`](./java-by-RDJ/concepts/02-oop), [`python-by-RDJ/concepts/01-basics`](./python-by-RDJ/concepts/01-basics).
 3. **Python and security tooling:** [`python-by-RDJ`](./python-by-RDJ), especially [`project-02-network-scanner`](./python-by-RDJ/projects/project-02-network-scanner) (refuses public hosts, tested) and [`project-03-perceptron-from-scratch`](./python-by-RDJ/projects/project-03-perceptron-from-scratch).
-4. **C foundations:** [`c-by-RDJ`](./c-by-RDJ) introduces C17, pointers, manual memory management and file I/O; this is an initial scaffold awaiting local verification.
+4. **C foundations:** [`c-by-RDJ`](./c-by-RDJ) introduces C17, pointers, manual memory management and file I/O; the curriculum (5 modules, 40 topics, 2 project starters) is fully designed, with code pending.
 5. **Systems fluency:** [`cpp-by-RDJ`](./cpp-by-RDJ), especially [`project-02-memory-safety-lab`](./cpp-by-RDJ/projects/project-02-memory-safety-lab) (toy bugs caught by sanitizers, then fixed) and [`project-03-thread-pool`](./cpp-by-RDJ/projects/project-03-thread-pool).
 6. **Networking fundamentals:** [`computer-network-by-RDJ`](./computer-network-by-RDJ), especially [`03-network-layer`](./computer-network-by-RDJ/concepts/03-network-layer) (subnetting, routing and ICMP simulators) and [`04-transport-layer`](./computer-network-by-RDJ/concepts/04-transport-layer) (TCP state machine, congestion control, sockets on loopback).
 7. **How I think about correctness:** [`14-dsa-in-java`](./java-by-RDJ/concepts/14-dsa-in-java) builds each structure without the JDK collections, then checks it against the JDK class on thousands of seeded random operations.
