@@ -26,6 +26,8 @@
 [Method](#-method) •
 [Run It](#-run-it-yourself) •
 [Integrity](#-integrity) •
+[Notes](./notes.md) •
+[Structure](#-structure) •
 [Log](#-progress-log)
 
 </div>
@@ -103,6 +105,7 @@ The stack cleans up after itself — the heap does not. `malloc` hands you a blo
 
 - **[`concepts/`](./concepts)**: one topic per file pair — a runnable `_N_Name.c` and a matching `_N_Name.md` explaining it line by line (same format as `java-by-RDJ`, `python-by-RDJ` and `cpp-by-RDJ`).
 - **[`projects/`](./projects)**: complete programs with a Makefile and tests, combining several modules.
+- **[`notes.md`](./notes.md)**: consolidated study notes covering every completed module and topic with detailed explanations.
 
 Every concept file follows the established repo conventions:
 
