@@ -18,6 +18,8 @@
 [Definition](#-what-is-jarvis) •
 [Goal](#-the-goal) •
 [Pipeline](#-pipeline) •
+[Learn](#-what-to-learn) •
+[Roadmap](#-roadmap-and-deadlines) •
 [Progress](#-progress) •
 [Principles](#-design-principles) •
 [Integrity](#-integrity-and-naming) •
@@ -102,6 +104,67 @@ Build an **original** assistant that borrows the *idea* of JARVIS and is judged 
 
 ---
 
+## 🧠 What to Learn
+
+Five parts chained together. Build them in this order; the full dates are in the [roadmap project](./projects/project-01-roadmap-and-deadlines/README.md).
+
+### 1. Python and audio basics
+- Python fundamentals, virtual environments and packages
+- Microphone and speakers: `sounddevice` or `PyAudio`, sample rates, audio as NumPy arrays
+- Threads or `asyncio`, so it can listen while it works
+
+### 2. Wake word detection ("Hey, JARVIS")
+- How keyword spotting works: a small always-on model running on-device
+- Options: openWakeWord (free), Picovoice Porcupine (free tier); a custom phrase can be trained
+- The trade-off to measure: hit rate vs. false triggers
+
+### 3. Speech-to-text (STT)
+- Voice activity detection to know when I stop talking (Silero VAD, `webrtcvad`)
+- Whisper run locally with `faster-whisper`, or a cloud STT API
+- Word error rate (WER), the metric used to measure it
+
+### 4. The brain: an LLM
+- Calling an LLM API (Anthropic, OpenAI) or a local model through Ollama
+- Prompt design: system prompt, persona, replies short enough to speak
+- Conversation memory: history, trimming, optional stored notes
+- **Tool calling / function calling**, the most important concept: how the model asks my code to do things such as check the time or search files
+
+### 5. Tools and safety
+- Small, well-tested Python functions the model can call
+- Allow-list design, input validation, confirmation before anything destructive
+- `subprocess` safety: never pass raw model output to a shell
+- Logging every request and action
+
+### 6. Text-to-speech (TTS)
+- Quick start: `pyttsx3`. Better quality: Piper (local) or a cloud TTS API
+- Streaming, so the reply starts before the full answer is ready
+
+### 7. Evaluation and engineering
+- Testing with `pytest`, including requests that must be refused
+- A small test set measuring wake hit rate, WER, tool-call accuracy and end-to-end latency
+- FastAPI, if a web or phone front end is added later
+
+**Build order:** typed version first (text in, LLM and tools, text out), then TTS, then STT, and the wake word last. The hard logic should work before audio makes debugging harder.
+
+---
+
+## 🗓️ Roadmap and Deadlines
+
+The separate planning project is [`project-01-roadmap-and-deadlines`](./projects/project-01-roadmap-and-deadlines/README.md): 8 milestones from **Nov 5, 2026** to a target finish of **Mar 14, 2027**, each with tasks and a proof of done. The dates are targets and will be edited honestly when they slip.
+
+| Milestone | Deadline |
+|---|---|
+| M0 Foundation | Nov 22, 2026 |
+| M1 Typed assistant | Dec 6, 2026 |
+| M2 Tools and safety | Dec 20, 2026 |
+| M3 Text-to-speech | Jan 3, 2027 |
+| M4 Speech-to-text and VAD | Jan 24, 2027 |
+| M5 Wake word | Feb 7, 2027 |
+| M6 Evaluation set and results | Feb 28, 2027 |
+| M7 Polish, demo and write-up | Mar 14, 2027 |
+
+---
+
 ## 🛡️ Design Principles
 
 1. **Allow-list, never deny-list:** the assistant can run only commands I have explicitly named.
@@ -122,13 +185,14 @@ Build an **original** assistant that borrows the *idea* of JARVIS and is judged 
 
 ## 📂 Structure
 
-Planned layout (only `README.md`, `LICENSE` and `assets/` exist today):
+Planned layout (only `README.md`, `LICENSE`, `assets/` and the roadmap project exist today):
 
 ```text
 Hey-JARVIS-by-RDJ/
 ├── README.md          this file
 ├── LICENSE            MIT
 ├── assets/            banner and pipeline diagrams
+├── projects/          project-01-roadmap-and-deadlines (milestones and dates)
 ├── src/               (planned) wake, speech, assistant, tools
 ├── tests/             (planned) unit tests and refusal tests
 └── eval/              (planned) evaluation set and results
@@ -138,7 +202,7 @@ Hey-JARVIS-by-RDJ/
 
 ## 📈 Progress Log
 
-- **November 5, 2026:** ⬜ Concept defined: README, naming and integrity notes, pipeline plan. No code yet.
+- **November 5, 2026:** ⬜ Concept defined: README, naming and integrity notes, pipeline plan, learning list, and the roadmap project with 8 dated milestones. No code yet.
 
 *This log is updated after every session, not just when something impressive happens, to keep the record honest.*
 
