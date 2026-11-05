@@ -71,6 +71,7 @@ I'm **Raj Patel** ("RDJ"; GitHub: `raj-famu-dev`), a Computer Science undergradu
 | 🐍 **Python** | [`python-by-RDJ`](./python-by-RDJ) | **Core completed.** 5 modules (OOP, file I/O and JSON, sockets, NumPy/Pandas) and 3 projects, all run and tested. FastAPI is next and not started |
 | 🤖 **AI engineering** | [`ai-engineering-by-RDJ`](./ai-engineering-by-RDJ) | **Next.** Placeholder folder. Starts after Python and FastAPI |
 | 🎙️ **Voice assistant** | [`Hey-JARVIS-by-RDJ`](./Hey-JARVIS-by-RDJ) | **Concept only.** A JARVIS-inspired (fictional, from Marvel) voice assistant. README defines the idea; no code yet |
+| 📚 **RAG study assistant** | [`RAG-Study-Assistant-by-RDJ`](./RAG-Study-Assistant-by-RDJ) | **Concept only.** Cited question answering over my own notes, with an evaluation set. Plan, dated milestones and board cards; no code yet |
 | 🛡️ **Security** | [`cybersecurity-by-RDJ`](./cybersecurity-by-RDJ) | **Queued.** Placeholder folder. Own systems and legal labs only |
 | 🧩 **C programming** | [`c-by-RDJ`](./c-by-RDJ) | **Concepts complete.** 5 modules and 40 topics written and verified (basics, pointers and memory, structs and modularity, files and systems, data structures), each a paired `.c` + `.md` walkthrough. Projects still starters |
 | ⚙️ **C++ systems** | [`cpp-by-RDJ`](./cpp-by-RDJ) | **Core completed.** 6 modules and 3 projects (data structures, memory-safety lab, thread pool), sanitizer-checked |
