@@ -15,6 +15,7 @@
 ### *Say it. Understand it. Act on it. Measure it.*
 
 [About](#-about) •
+[Interface](#-interface-concept) •
 [Definition](#-what-is-jarvis) •
 [Goal](#-the-goal) •
 [Pipeline](#-pipeline) •
@@ -35,6 +36,16 @@
 This is **Raj Patel's** ("RDJ") plan for a personal, voice-first AI assistant, built as a Computer Science student at Florida A&M University. The idea is simple: say "Hey, JARVIS", ask for something, and get a useful spoken answer.
 
 **Today this folder holds the plan and nothing else.** There is no code, no demo and no result yet. This README exists so the design is public before the work is, and each stage is marked done only when it runs and has proof.
+
+---
+
+## 🖥️ Interface Concept
+
+<div align="center">
+<img src="assets/hud.svg" alt="Animated mockup of the planned assistant dashboard: rotating rings around a listening core, stage indicators, gauges, a scrolling audio graph and a console log." width="100%"/>
+</div>
+
+An **animated mockup** of the dashboard I want to build around the assistant: a listening core, the five pipeline stages lighting up in turn, load gauges, a live microphone view, a console of what the assistant just did, and the allow-listed tools it may use. It is a design sketch only. **Nothing in it is real data or a working interface**, and the evaluation numbers on the left read `--` until a program measures them.
 
 ---
 
@@ -191,7 +202,7 @@ Planned layout (only `README.md`, `LICENSE`, `assets/` and the roadmap project e
 Hey-JARVIS-by-RDJ/
 ├── README.md          this file
 ├── LICENSE            MIT
-├── assets/            banner and pipeline diagrams
+├── assets/            banner, pipeline and interface-concept animations
 ├── projects/          project-01-roadmap-and-deadlines (milestones and dates)
 ├── src/               (planned) wake, speech, assistant, tools
 ├── tests/             (planned) unit tests and refusal tests
@@ -203,6 +214,8 @@ Hey-JARVIS-by-RDJ/
 ## 📈 Progress Log
 
 - **November 5, 2026:** ⬜ Concept defined: README, naming and integrity notes, pipeline plan, learning list, and the roadmap project with 8 dated milestones. No code yet.
+
+- **November 6, 2026:** ⬜ Added the animated interface concept (`assets/hud.svg`) and an animated pipeline. Design only; still no code.
 
 *This log is updated after every session, not just when something impressive happens, to keep the record honest.*
 
