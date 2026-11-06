@@ -1,252 +1,312 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Hey-JARVIS-by-RDJ: a voice waveform pulsing beside the wake phrase Hey, JARVIS" width="100%"/>
+<img src="assets/banner.svg" alt="Hey-JARVIS-by-RDJ: a voice waveform beside the wake phrase Hey, JARVIS" width="100%"/>
 
-<br/>
+# Hey-JARVIS-by-RDJ
+
+### A personal, voice-first AI assistant — documented from concept to evidence
 
 ![Focus](https://img.shields.io/badge/Focus-Voice%20AI%20Assistant-7C3AED?style=for-the-badge)
 ![Language](https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Stages](https://img.shields.io/badge/Stages%20Built-0%20of%205-6B7280?style=for-the-badge)
-![Inspiration](https://img.shields.io/badge/Inspired%20by-Fictional%20AI-DC2626?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Concept%20Only-yellow?style=for-the-badge)
 [![Author](https://img.shields.io/badge/By-Raj%20Patel%20(RDJ)-22D3EE?style=for-the-badge)](https://github.com/raj-famu-dev)
 ![License](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge)
 
 ### *Say it. Understand it. Act on it. Measure it.*
 
-[About](#-about) •
-[Interface](#-interface-concept) •
-[Definition](#-what-is-jarvis) •
-[Goal](#-the-goal) •
-[Pipeline](#-pipeline) •
-[Learn](#-what-to-learn) •
-[Roadmap](#-roadmap-and-deadlines) •
-[Progress](#-progress) •
-[Principles](#-design-principles) •
-[Integrity](#-integrity-and-naming) •
-[Structure](#-structure) •
-[Log](#-progress-log)
+[About](#about) • [Goal](#the-goal) • [Review](#what-a-reviewer-can-verify) • [Interface](#interface-concept) • [Inspiration](#what-is-jarvis) • [Pipeline](#pipeline) • [Progress](#progress) • [Learn](#what-to-learn) • [Method](#method) • [Evidence](#evaluation-and-measured-results) • [Run It](#run-it-yourself) • [Roadmap](#roadmap-and-deadlines) • [Safety](#design-principles) • [Integrity](#integrity-and-naming) • [Structure](#structure) • [Log](#progress-log) • [Related Labs](#related-labs)
 
 </div>
 
 ---
 
-## 👋 About
+## About
 
-This is **Raj Patel's** ("RDJ") plan for a personal, voice-first AI assistant, built as a Computer Science student at Florida A&M University. The idea is simple: say "Hey, JARVIS", ask for something, and get a useful spoken answer.
+This is Raj Patel's ("RDJ") plan for a personal, voice-first AI assistant, built as a Computer Science student at Florida A&M University. The idea is simple: say "Hey, JARVIS", ask for something, and get a useful spoken answer.
 
-**Today this folder holds the plan and nothing else.** There is no code, no demo and no result yet. This README exists so the design is public before the work is, and each stage is marked done only when it runs and has proof.
+Today this folder holds a plan, not a working assistant. There is no implementation, runnable demo or measured result yet. The banner, interface and pipeline illustrations communicate the design; they are not evidence of functioning software. Each stage will be marked complete only when it runs and has supporting proof.
+
+The prerequisite is the Python and FastAPI work in [Python Lab](../python-by-RDJ/README.md). This project belongs to the [AI Engineering](../ai-engineering-by-RDJ/README.md) track.
 
 ---
 
-## 🖥️ Interface Concept
+## The Goal
+
+Build an original assistant inspired by the idea of JARVIS and judged by reproducible engineering evidence.
+
+- Real engineering: connect speech, a language model, tools and evaluation in small, explainable steps.
+- Public accountability: distinguish plans, implementation and verified results.
+- Measured performance: publish evaluation methods, results and failure cases rather than treating a demo as proof.
+- Safe scope: operate only on my own machine through explicitly allowed tools.
+- Honest expectations: this will not be the movie JARVIS.
+
+---
+
+## What a Reviewer Can Verify
+
+| Area | Current record | Evidence required before completion |
+|---|---|---|
+| Implementation | Concept only; 0 of 5 stages built | Runnable source and documented setup |
+| Origin | Fictional inspiration is disclosed | Sources, licenses and assistance disclosed alongside future artifacts |
+| Correctness | No test results published | Tests, actual outputs and failure cases |
+| Safety | Allow-list and confirmation rules are planned | Refusal tests and action logs |
+| Performance | No accuracy or latency claims | Evaluation inputs, method and reproducible measurements |
+
+---
+
+## Interface Concept
 
 <div align="center">
-<img src="assets/hud.svg" alt="Animated mockup of the planned assistant dashboard: rotating rings around a listening core, stage indicators, gauges, a scrolling audio graph and a console log." width="100%"/>
+<img src="assets/hud.svg" alt="Animated design mockup: listening core, pipeline indicators, gauges, microphone graph and console" width="100%"/>
 </div>
 
-An **animated mockup** of the dashboard I want to build around the assistant: a listening core, the five pipeline stages lighting up in turn, load gauges, a live microphone view, a console of what the assistant just did, and the allow-listed tools it may use. It is a design sketch only. **Nothing in it is real data or a working interface**, and the evaluation numbers on the left read `--` until a program measures them.
+This animated mockup sketches the dashboard I want to build: a listening core, pipeline stages, load gauges, microphone view, action console and allowed tools. Nothing shown is real telemetry or a working interface. Evaluation values remain `--` until a program measures them.
 
 ---
 
-## 📖 What is JARVIS?
+## What Is JARVIS?
 
-**JARVIS** stands for **"Just A Rather Very Intelligent System"**. It is a **fictional** artificial intelligence from the Marvel Cinematic Universe, created by the character **Tony Stark / Iron Man**.
+JARVIS stands for "Just A Rather Very Intelligent System", the fictional AI assistant associated with Tony Stark / Iron Man in the Marvel Cinematic Universe.
 
-| | |
+| Detail | Context |
 |---|---|
-| **What it is** | A fictional AI assistant that runs Stark's home, lab and suits |
-| **How it's used** | Spoken natural language, started with "Hey, JARVIS" |
-| **Personality** | Calm, polite and dry-witted |
-| **Voiced by** | Paul Bettany |
-| **Played Tony Stark** | Robert Downey Jr. (the actor, not the author of any real software) |
+| Fictional role | Assists Stark with his home, lab and suits |
+| Interaction | Spoken natural language |
+| Personality inspiration | Calm, polite and dry-witted |
+| Voice performer | Paul Bettany |
+| Tony Stark's actor | Robert Downey Jr.; not the author of this software |
 
-JARVIS is **not** a real product, and it was **not** made by Robert Downey Jr. This project is **not** affiliated with, endorsed by or connected to him, Marvel or Disney. "RDJ" in this repository's folder names is **Raj Patel**.
-
----
-
-## 🎯 The Goal
-
-Build an **original** assistant that borrows the *idea* of JARVIS and is judged like any other AI system: by measured results.
-
-- **Real engineering:** speech, language model, tools and evaluation, all written and explained by me.
-- **Measured, not claimed:** an evaluation set with metrics and failure cases, because a demo is not evidence.
-- **Safe by default:** it acts only on my own machine, through an explicit allow-list.
-- **Honest about scope:** it will never be the movie JARVIS, and this README will not pretend otherwise.
+Here, RDJ means Raj Patel. This independent student project is not affiliated with or endorsed by Robert Downey Jr., Marvel or Disney.
 
 ---
 
-## 🧭 What a Reviewer Can Verify
-
-- **Origin is disclosed:** the fictional source is named, and no Marvel material is copied.
-- **Status is honest:** every stage below is ⬜ until it runs and has proof.
-- **Nothing is overclaimed:** no skill level, accuracy or latency figure appears until a program prints it.
-- **Own machine only:** no component will be pointed at systems I do not own.
-
----
-
-## 🔬 Pipeline
+## Pipeline
 
 <div align="center">
-<img src="assets/pipeline.svg" alt="Five planned stages: wake, listen, think, act, speak. None built yet." width="100%"/>
+<img src="assets/pipeline.svg" alt="Five planned stages: wake, listen, think, act and speak; none implemented yet" width="100%"/>
 </div>
 
-1. **Wake:** a keyword spotter listens for "Hey, JARVIS" and ignores everything else.
-2. **Listen:** speech-to-text turns the request into text.
-3. **Think:** a language model with a defined persona and short-term memory decides what to do.
-4. **Act:** it can call a small set of **allow-listed** tools (time, notes, file search, safe local commands).
-5. **Speak:** text-to-speech reads the answer back.
+| Stage | Planned responsibility |
+|---|---|
+| Wake | Detect "Hey, JARVIS" with an on-device keyword spotter |
+| Listen | Detect speech boundaries and transcribe the request |
+| Think | Use an LLM with a defined persona and short-term conversation history |
+| Act | Invoke validated, allow-listed tools for tasks such as time, notes and local file search |
+| Speak | Convert the response into spoken audio |
+
+Pipeline order describes runtime behavior, not implementation order. Build the typed assistant first, then add speech output, speech input and finally wake-word detection.
 
 ---
 
-## 📈 Progress
+## Progress
 
 | # | Stage | Planned proof | Status |
-|:-:|---|---|:-:|
-| 1 | Wake phrase detection | Recorded test clips with hit and false-trigger counts | ⬜ Not Started |
-| 2 | Speech-to-text and text-to-speech | Round-trip demo with word error rate on a small clip set | ⬜ Not Started |
-| 3 | LLM conversation with a persona | Persona prompt in the repo plus sample transcripts | ⬜ Not Started |
-| 4 | Allow-listed tools | Unit tests, including requests that must be refused | ⬜ Not Started |
-| 5 | Evaluation set | Method, metrics and failure cases published here | ⬜ Not Started |
+|:---:|---|---|---|
+| 1 | Wake phrase detection | Recorded clips, hit counts and false-trigger counts | Not started |
+| 2 | Speech-to-text and text-to-speech | Round-trip demo and word error rate on a documented clip set | Not started |
+| 3 | LLM conversation and persona | Versioned persona prompt and sample transcripts | Not started |
+| 4 | Allow-listed tools | Unit tests, validation checks and refusal cases | Not started |
+| 5 | Evaluation set | Published method, metrics and failure cases | Not started |
 
-**Status key:** ✅ completed (runs, has proof) · 🔄 in progress · ⬜ not started
-
-**Prerequisite:** the Python and FastAPI work in [`python-by-RDJ`](../python-by-RDJ/README.md). This project starts after it, as part of the [`ai-engineering-by-RDJ`](../ai-engineering-by-RDJ/README.md) track.
+Status definitions: not started = planned only; in progress = implementation underway but proof incomplete; completed = runs, has documented evidence and can be checked. Documentation and visual mockups do not count as implemented stages.
 
 ---
 
-## 🧠 What to Learn
+## What to Learn
 
-Five parts chained together. Build them in this order; the full dates are in the [roadmap project](./projects/project-01-roadmap-and-deadlines/README.md).
+### 1. Python and Audio Foundations
 
-### 1. Python and audio basics
-- Python fundamentals, virtual environments and packages
-- Microphone and speakers: `sounddevice` or `PyAudio`, sample rates, audio as NumPy arrays
-- Threads or `asyncio`, so it can listen while it works
+- Python fundamentals, virtual environments and dependency management.
+- Microphone capture and playback with candidates such as `sounddevice` or `PyAudio`.
+- Sample rates, NumPy audio arrays, threads and `asyncio`.
 
-### 2. Wake word detection ("Hey, JARVIS")
-- How keyword spotting works: a small always-on model running on-device
-- Options: openWakeWord (free), Picovoice Porcupine (free tier); a custom phrase can be trained
-- The trade-off to measure: hit rate vs. false triggers
+### 2. Wake-Word Detection
 
-### 3. Speech-to-text (STT)
-- Voice activity detection to know when I stop talking (Silero VAD, `webrtcvad`)
-- Whisper run locally with `faster-whisper`, or a cloud STT API
-- Word error rate (WER), the metric used to measure it
+- On-device keyword spotting and custom wake phrases.
+- Evaluate candidates such as openWakeWord and Picovoice Porcupine; check current licensing and platform requirements before selecting one.
+- Measure detection rate and false activations.
 
-### 4. The brain: an LLM
-- Calling an LLM API (Anthropic, OpenAI) or a local model through Ollama
-- Prompt design: system prompt, persona, replies short enough to speak
-- Conversation memory: history, trimming, optional stored notes
-- **Tool calling / function calling**, the most important concept: how the model asks my code to do things such as check the time or search files
+### 3. Speech-to-Text
 
-### 5. Tools and safety
-- Small, well-tested Python functions the model can call
-- Allow-list design, input validation, confirmation before anything destructive
-- `subprocess` safety: never pass raw model output to a shell
-- Logging every request and action
+- Voice activity detection with candidates such as Silero VAD or `webrtcvad`.
+- Compare local transcription through `faster-whisper` with a cloud STT API.
+- Measure word error rate on a documented set of recordings.
 
-### 6. Text-to-speech (TTS)
-- Quick start: `pyttsx3`. Better quality: Piper (local) or a cloud TTS API
-- Streaming, so the reply starts before the full answer is ready
+### 4. Language Model and Conversation
 
-### 7. Evaluation and engineering
-- Testing with `pytest`, including requests that must be refused
-- A small test set measuring wake hit rate, WER, tool-call accuracy and end-to-end latency
-- FastAPI, if a web or phone front end is added later
+- Call a model API or a local model through Ollama.
+- Define the persona, response length and conversation-history limits.
+- Learn tool calling: the model requests an operation, but application code validates and executes it.
 
-**Build order:** typed version first (text in, LLM and tools, text out), then TTS, then STT, and the wake word last. The hard logic should work before audio makes debugging harder.
+### 5. Tools and Safety
+
+- Write small Python functions with clear inputs and testable outputs.
+- Validate arguments, enforce an allow-list and request confirmation for consequential actions.
+- Never pass raw model output into a shell; keep tool execution separate from generated text.
+
+### 6. Text-to-Speech
+
+- Explore `pyttsx3`, Piper or a cloud TTS API.
+- Evaluate voice quality, streaming behavior, latency and privacy before choosing a backend.
+
+### 7. Evaluation and Service Engineering
+
+- Use `pytest` for unit tests and refusal cases.
+- Measure wake detection, transcription, tool selection and end-to-end response time.
+- Consider FastAPI only if a web or phone interface becomes necessary.
+
+These are learning topics and candidate technologies, not installed dependencies or final stack decisions.
 
 ---
 
-## 🗓️ Roadmap and Deadlines
+## Method
 
-The separate planning project is [`project-01-roadmap-and-deadlines`](./projects/project-01-roadmap-and-deadlines/README.md): 8 milestones from **Nov 5, 2026** to a target finish of **Mar 14, 2027**, each with tasks and a proof of done. The dates are targets and will be edited honestly when they slip.
+1. Write: implement one small, runnable component.
+2. Run: execute it locally and retain the actual output.
+3. Break: test noisy input, invalid arguments, unavailable services and unsafe requests.
+4. Explain: document how it works, why decisions were made and where it fails.
+5. Ship: commit the implementation, tests and walkthrough; update status only when the evidence supports it.
 
-| Milestone | Deadline |
+For future implementation files, disclose authorship and AI assistance where applicable. A walkthrough should distinguish observed behavior from expectations, and a successful demo should not be presented as comprehensive evaluation.
+
+---
+
+## Evaluation and Measured Results
+
+No measurements have been published. The following is the evaluation plan, not a results table.
+
+| Measure | Planned reporting method | Current result |
+|---|---|---|
+| Wake detection | Correct detections / positive clips; false activations on negative audio with duration stated | Not measured |
+| Transcription | Word error rate against reference transcripts | Not measured |
+| Tool-call accuracy | Correct tool and arguments on a labeled request set | Not measured |
+| Refusal behavior | Outcomes on requests that must not execute | Not measured |
+| End-to-end latency | Define timing boundaries and report hardware, backend and repeated-run timings | Not measured |
+
+Publish the input set, configuration, commands, observed results and known failures together. Do not replace missing results with illustrative numbers.
+
+---
+
+## Run It Yourself
+
+There is no runnable assistant yet. This section will gain verified installation and execution commands after the foundation milestone produces working code.
+
+You can inspect the current documentation and design assets:
+
+```bash
+git clone https://github.com/raj-famu-dev/code-with-RDJ.git
+cd code-with-RDJ/Hey-JARVIS-by-RDJ
+```
+
+Read this README and the [roadmap project](./projects/project-01-roadmap-and-deadlines/README.md). These commands retrieve the project; they do not start an assistant.
+
+Before claiming a runnable release, document the supported Python version, operating system, audio requirements, dependency installation, configuration, startup command and test command. Keep credentials out of source control and explain which data leaves the machine.
+
+---
+
+## Roadmap and Deadlines
+
+The [roadmap project](./projects/project-01-roadmap-and-deadlines/README.md) contains eight milestones, tasks and proofs of completion. Planning began November 5, 2026; the target finish is March 14, 2027. Dates are targets, not completed deliverables.
+
+| Milestone | Target deadline |
 |---|---|
-| M0 Foundation | Nov 22, 2026 |
-| M1 Typed assistant | Dec 6, 2026 |
-| M2 Tools and safety | Dec 20, 2026 |
-| M3 Text-to-speech | Jan 3, 2027 |
-| M4 Speech-to-text and VAD | Jan 24, 2027 |
-| M5 Wake word | Feb 7, 2027 |
-| M6 Evaluation set and results | Feb 28, 2027 |
-| M7 Polish, demo and write-up | Mar 14, 2027 |
+| M0 — Foundation | November 22, 2026 |
+| M1 — Typed assistant | December 6, 2026 |
+| M2 — Tools and safety | December 20, 2026 |
+| M3 — Text-to-speech | January 3, 2027 |
+| M4 — Speech-to-text and VAD | January 24, 2027 |
+| M5 — Wake word | February 7, 2027 |
+| M6 — Evaluation set and results | February 28, 2027 |
+| M7 — Polish, demo and write-up | March 14, 2027 |
+
+If a target slips, update the planning record honestly rather than changing a status without proof.
 
 ---
 
-## 🛡️ Design Principles
+## Design Principles
 
-1. **Allow-list, never deny-list:** the assistant can run only commands I have explicitly named.
-2. **Confirm before anything destructive:** deleting, sending or spending needs a spoken or typed yes.
-3. **Local first:** keep audio on my machine where possible, and say plainly what leaves it.
-4. **Everything logged:** each request, tool call and result is recorded so it can be audited.
-5. **Test the refusals:** the evaluation set includes requests the assistant must decline.
+1. Allow-list, not deny-list: execute only explicitly supported tools.
+2. Confirm consequential actions: deleting, sending or spending requires explicit approval.
+3. Local first: retain audio locally where possible and disclose external processing.
+4. Auditable behavior: plan request, tool-call and outcome logging with sensitive-data handling defined before use.
+5. Test refusals: verify that disallowed requests do not cause execution.
+6. Own systems only: do not target machines, files or accounts without authorization.
 
----
-
-## ⚖️ Integrity and Naming
-
-- **Fictional source:** the name, the acronym and the concept belong to Marvel. They are used here only as inspiration and a nod to the films.
-- **Original work:** all code, prompts and any voice will be written by me or licensed, with sources stated. No film scripts, audio, logos or artwork will be copied in.
-- **Honest comparison:** nothing here claims to match, replace or be the fictional JARVIS.
+These are intended design requirements. No safety implementation has been verified yet.
 
 ---
 
-## 📂 Structure
+## Integrity and Naming
 
-Planned layout (only `README.md`, `LICENSE`, `assets/` and the roadmap project exist today):
+- Inspiration: the fictional JARVIS name and concept are acknowledged as Marvel-related inspiration.
+- Original implementation: future code, prompts and voice assets must have their origins and applicable licenses documented.
+- No copied film material: do not include film scripts, audio, logos or artwork.
+- No impersonation: RDJ refers to Raj Patel, not Robert Downey Jr.
+- No inflated comparison: this project does not claim to match or replace the fictional assistant.
+
+---
+
+## Structure
+
+The current documentation identifies `README.md`, `LICENSE`, `assets/` and the roadmap project as existing materials. Implementation directories below remain planned.
 
 ```text
 Hey-JARVIS-by-RDJ/
-├── README.md          this file
-├── LICENSE            MIT
-├── assets/            banner, pipeline and interface-concept animations
-├── projects/          project-01-roadmap-and-deadlines (milestones and dates)
-├── src/               (planned) wake, speech, assistant, tools
-├── tests/             (planned) unit tests and refusal tests
-└── eval/              (planned) evaluation set and results
+├── README.md          Project overview, status and evidence requirements
+├── LICENSE            MIT license
+├── assets/            Banner, pipeline and interface-concept illustrations
+├── projects/
+│   └── project-01-roadmap-and-deadlines/
+│       └── README.md  Milestones, dates and proofs of completion
+├── src/               Planned: wake, speech, assistant and tools
+├── tests/             Planned: unit, validation and refusal tests
+└── eval/              Planned: evaluation inputs, methods and results
 ```
 
 ---
 
-## 📈 Progress Log
+## Progress Log
 
-- **November 5, 2026:** ⬜ Concept defined: README, naming and integrity notes, pipeline plan, learning list, and the roadmap project with 8 dated milestones. No code yet.
+- November 5, 2026: Concept defined: README, naming and integrity notes, pipeline plan, learning topics and eight dated milestones. No implementation.
+- November 6, 2026: Added the animated interface concept and pipeline illustration. Design only; no implementation.
+- November 6, 2026: Expanded README organization to match the Java Lab's documentation approach: explicit title, complete navigation, reviewer checklist, method, evaluation plan, run-status guidance and consistent author footer. Documentation only; stages remain 0 of 5.
 
-- **November 6, 2026:** ⬜ Added the animated interface concept (`assets/hud.svg`) and an animated pipeline. Design only; still no code.
-
-*This log is updated after every session, not just when something impressive happens, to keep the record honest.*
+*Update this log after each session, including incomplete work and limitations—not only successful outcomes.*
 
 ---
 
-## 🔥 A Note to Whoever Is Reading This
+## A Note to Whoever Is Reading This
 
-If you're a recruiter, a hiring manager or a fellow engineer: thank you for taking the time. This is an idea I'm excited about, and I'd rather show you an honest plan than a polished claim. When a stage turns green, there will be code you can run and numbers you can check.
+If you are a recruiter, hiring manager or fellow engineer: thank you for taking the time. This is an idea I am excited about, and I would rather show an honest plan than a polished claim. When a stage is marked complete, there should be code you can run, documentation you can follow and evidence you can inspect.
 
 — Raj Patel (RDJ), Tallahassee, Florida
 
-## 🔗 Related Labs
+---
 
-| Lab | What it covers |
+## Related Labs
+
+| Lab | Connection |
 |---|---|
-| 🤖 [AI Engineering](../ai-engineering-by-RDJ/README.md) | The track this project belongs to: services, RAG, agents and evaluation. |
-| 🐍 [Python Lab](../python-by-RDJ/README.md) | The language this project will be written in. |
-| 🛡️ [Cybersecurity](../cybersecurity-by-RDJ/README.md) | Own systems and legal labs only, the same rule this assistant follows. |
+| [AI Engineering](../ai-engineering-by-RDJ/README.md) | Parent track: services, RAG, agents and evaluation |
+| [Python Lab](../python-by-RDJ/README.md) | Language and service foundations for the assistant |
+| [Java Lab](../java-by-RDJ/README.md) | Companion documentation model: write, run, break, explain and ship |
+| [Cybersecurity](../cybersecurity-by-RDJ/README.md) | Authorized systems, explicit boundaries and safety-minded engineering |
 
 ---
 
 <div align="center">
 
-### 👨‍💻 Built and owned by Raj Patel (RDJ)
+### Built and owned by Raj Patel (RDJ)
 
-Computer Science undergraduate at **Florida A&M University** · Tallahassee, Florida · GitHub [`raj-famu-dev`](https://github.com/raj-famu-dev) · Instagram [`@rdj_369`](https://instagram.com/rdj_369)
+Computer Science undergraduate at Florida A&M University · Tallahassee, Florida
 
-<sub>Status: concept only. No code yet; this README exists so the plan is public before the work is. JARVIS is a fictional character owned by Marvel; this project is unaffiliated.</sub>
+[GitHub: raj-famu-dev](https://github.com/raj-famu-dev) · [Instagram: @rdj_369](https://instagram.com/rdj_369)
 
-[⬅ Back to the repository](../README.md) · [AI Engineering](../ai-engineering-by-RDJ/README.md) · [Python Lab](../python-by-RDJ/README.md)
+<sub>Status: concept only — 0 of 5 stages implemented. Visuals are design mockups, not functioning software or measured results. Completion requires runnable code and documented evidence. JARVIS is fictional; this independent project is unaffiliated with Marvel, Disney or Robert Downey Jr. RDJ means Raj Patel.</sub>
 
-**© 2026 Raj Patel (RDJ).** Released under the [MIT License](./LICENSE).
+[Back to the repository](../README.md) · [AI Engineering](../ai-engineering-by-RDJ/README.md) · [Python Lab](../python-by-RDJ/README.md) · [Java Lab](../java-by-RDJ/README.md) · [Back to top](#hey-jarvis-by-rdj)
+
+© 2026 Raj Patel (RDJ). Released under the [MIT License](./LICENSE).
 
 </div>
