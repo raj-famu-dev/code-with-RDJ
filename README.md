@@ -70,6 +70,7 @@ I'm **Raj Patel** ("RDJ"; GitHub: `raj-famu-dev`), a Computer Science undergradu
 | ☕ **Java** | [`java-by-RDJ`](./java-by-RDJ) | **Active.** OOP, collections, concurrency, generics, streams, design patterns, data structures from scratch |
 | 🐍 **Python** | [`python-by-RDJ`](./python-by-RDJ) | **Core completed.** 5 modules (OOP, file I/O and JSON, sockets, NumPy/Pandas) and 3 projects, all run and tested. FastAPI is next and not started |
 | 🤖 **AI engineering** | [`ai-engineering-by-RDJ`](./ai-engineering-by-RDJ) | **Next.** Placeholder folder. Starts after Python and FastAPI |
+| 🎨 **Portfolio** | [`RDJ-Portfolio`](./RDJ-Portfolio) | **Live component.** An animated portfolio webpage: résumé, portrait, stats and the 12-month roadmap, with every claim sourced from this repo |
 | 🎙️ **Voice assistant** | [`Hey-JARVIS-by-RDJ`](./Hey-JARVIS-by-RDJ) | **Concept only.** A JARVIS-inspired (fictional, from Marvel) voice assistant. README defines the idea; no code yet |
 | 📚 **RAG study assistant** | [`RAG-Study-Assistant-by-RDJ`](./RAG-Study-Assistant-by-RDJ) | **Concept only.** Cited question answering over my own notes, with an evaluation set. Plan, dated milestones and board cards; no code yet |
 | 🛡️ **Security** | [`cybersecurity-by-RDJ`](./cybersecurity-by-RDJ) | **Queued.** Placeholder folder. Own systems and legal labs only |
